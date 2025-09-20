@@ -1,0 +1,1597 @@
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 650px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+/*-------------------------PRIMERA FILA/LINEA-------------------------*/
+
+/* LA BODA DE MI MEJOR AMIGO */
+.BodaMejorAmigo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.BodaMejorAmigo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.BodaMejorAmigo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.BodaMejorAmigo figure .contenidoBodaMejorAmigo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.BodaMejorAmigo figure:hover > .contenidoBodaMejorAmigo{
+    opacity: 1;
+    visibility: visible;
+}
+.BodaMejorAmigo figure:hover > .contenidoBodaMejorAmigo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.BodaMejorAmigo figure:hover > .contenidoBodaMejorAmigo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* EL DIABLO VISTE A LA MODA*/
+.DiabloModa{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.DiabloModa figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.DiabloModa figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.DiabloModa figure .contenidoDiabloModa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.DiabloModa figure:hover > .contenidoDiabloModa{
+    opacity: 1;
+    visibility: visible;
+}
+.DiabloModa figure:hover > .contenidoDiabloModa h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.DiabloModa figure:hover > .contenidoDiabloModa p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* NO SE ACEPTAN DEVOLUCIONES*/
+.NoaceptanDevoluciones{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.NoaceptanDevoluciones figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.NoaceptanDevoluciones figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.NoaceptanDevoluciones figure .contenidoNoaceptanDevoluciones{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.NoaceptanDevoluciones figure:hover > .contenidoNoaceptanDevoluciones{
+    opacity: 1;
+    visibility: visible;
+}
+.NoaceptanDevoluciones figure:hover > .contenidoNoaceptanDevoluciones h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.NoaceptanDevoluciones figure:hover > .contenidoNoaceptanDevoluciones p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* EL LOBO DE WALL STREET */
+.LoboWallStreet{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.LoboWallStreet figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LoboWallStreet figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LoboWallStreet figure .contenidoLoboWallStreet{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LoboWallStreet figure:hover > .contenidoLoboWallStreet{
+    opacity: 1;
+    visibility: visible;
+}
+.LoboWallStreet figure:hover > .contenidoLoboWallStreet h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LoboWallStreet figure:hover > .contenidoLoboWallStreet p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Supercool */
+.Supercool{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -975px;
+    left: 75px;
+}
+.Supercool figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Supercool figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Supercool figure .contenidoSupercool{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Supercool figure:hover > .contenidoSupercool{
+    opacity: 1;
+    visibility: visible;
+}
+.Supercool figure:hover > .contenidoSupercool h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Supercool figure:hover > .contenidoSupercool p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Zoolander */
+.Zoolander{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1260px;
+    left: 75px;
+}
+.Zoolander figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Zoolander figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Zoolander figure .contenidoZoolander{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Zoolander figure:hover > .contenidoZoolander{
+    opacity: 1;
+    visibility: visible;
+}
+.Zoolander figure:hover > .contenidoZoolander h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Zoolander figure:hover > .contenidoZoolander p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Soncomoninos */
+.Soncomoninos{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1545px;
+    left: 75px;
+}
+.Soncomoninos figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Soncomoninos figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Soncomoninos figure .contenidoSoncomoninos{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Soncomoninos figure:hover > .contenidoSoncomoninos{
+    opacity: 1;
+    visibility: visible;
+}
+.Soncomoninos figure:hover > .contenidoSoncomoninos h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Soncomoninos figure:hover > .contenidoSoncomoninos p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Soncomoninos2 */
+.Soncomoninos2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1830px;
+    left: 75px;
+}
+.Soncomoninos2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Soncomoninos2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Soncomoninos2 figure .contenidoSoncomoninos2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Soncomoninos2 figure:hover > .contenidoSoncomoninos2{
+    opacity: 1;
+    visibility: visible;
+}
+.Soncomoninos2 figure:hover > .contenidoSoncomoninos2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Soncomoninos2 figure:hover > .contenidoSoncomoninos2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* LatinLover */
+.LatinLover{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2115px;
+    left: 75px;
+}
+.LatinLover figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LatinLover figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LatinLover figure .contenidoLatinLover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LatinLover figure:hover > .contenidoLatinLover{
+    opacity: 1;
+    visibility: visible;
+}
+.LatinLover figure:hover > .contenidoLatinLover h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LatinLover figure:hover > .contenidoLatinLover p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Pendiente2 */
+.Pendiente3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2400px;
+    left: 75px;
+}
+.Pendiente3 figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.Pendiente3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Pendiente3 figure .contenidoPendiente3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Pendiente3 figure:hover > .contenidoPendiente3{
+    opacity: 1;
+    visibility: visible;
+}
+.Pendiente3 figure:hover > .contenidoPendiente3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Pendiente3 figure:hover > .contenidoPendiente3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+/* ReadyPlayerOne */
+.ReadyPlayerOne{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.ReadyPlayerOne figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ReadyPlayerOne figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ReadyPlayerOne figure .contenidoReadyPlayerOne{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne{
+    opacity: 1;
+    visibility: visible;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+
+/* TED 1 */
+
+.Ted{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 170px;
+    left: 505px;
+    
+}
+.Ted figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.Ted figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Ted figure .contenidoTed{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Ted figure:hover > .contenidoTed{
+    opacity: 1;
+    visibility: visible;
+}
+.Ted figure:hover > .contenidoTed h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Ted figure:hover > .contenidoTed p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* TED 2 */
+
+.Ted2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+    
+}
+.Ted2 figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.Ted2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Ted2 figure .contenidoTed2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Ted2 figure:hover > .contenidoTed2{
+    opacity: 1;
+    visibility: visible;
+}
+.Ted2 figure:hover > .contenidoTed2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Ted2 figure:hover > .contenidoTed2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Y DONDE ESTAN LAS RUBIAS*/
+
+.YDondeEstanRubias{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+    
+}
+.YDondeEstanRubias figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.YDondeEstanRubias figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.YDondeEstanRubias figure .contenidoYDondeEstanRubias{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.YDondeEstanRubias figure:hover > .contenidoYDondeEstanRubias{
+    opacity: 1;
+    visibility: visible;
+}
+.YDondeEstanRubias figure:hover > .contenidoYDondeEstanRubias h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.YDondeEstanRubias figure:hover > .contenidoYDondeEstanRubias p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* TrumanShow */
+.TrumanShow{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 505px;
+}
+.TrumanShow figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.TrumanShow figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TrumanShow figure .contenidoTrumanShow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TrumanShow figure:hover > .contenidoTrumanShow{
+    opacity: 1;
+    visibility: visible;
+}
+.TrumanShow figure:hover > .contenidoTrumanShow h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TrumanShow figure:hover > .contenidoTrumanShow p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Lamascara */
+.Lamascara{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 505px;
+}
+.Lamascara figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.Lamascara figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Lamascara figure .contenidoLamascara{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Lamascara figure:hover > .contenidoLamascara{
+    opacity: 1;
+    visibility: visible;
+}
+.Lamascara figure:hover > .contenidoLamascara h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Lamascara figure:hover > .contenidoLamascara p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* FiestaSalchicas */
+.FiestaSalchicas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 505px;
+}
+.FiestaSalchicas figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.FiestaSalchicas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.FiestaSalchicas figure .contenidoFiestaSalchicas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.FiestaSalchicas figure:hover > .contenidoFiestaSalchicas{
+    opacity: 1;
+    visibility: visible;
+}
+.FiestaSalchicas figure:hover > .contenidoFiestaSalchicas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.FiestaSalchicas figure:hover > .contenidoFiestaSalchicas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* LittleMan */
+.LittleMen{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1830px;
+    left: 505px;
+}
+.LittleMen figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.LittleMen figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LittleMen figure .contenidoLittleMen{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LittleMen figure:hover > .contenidoLittleMen{
+    opacity: 1;
+    visibility: visible;
+}
+.LittleMen figure:hover > .contenidoLittleMen h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LittleMen figure:hover > .contenidoLittleMen p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Virgen40 */
+.Virgen40{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1554px;
+    left: 505px;
+}
+.Virgen40 figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.Virgen40 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Virgen40 figure .contenidoVirgen40{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Virgen40 figure:hover > .contenidoVirgen40{
+    opacity: 1;
+    visibility: visible;
+}
+.Virgen40 figure:hover > .contenidoVirgen40 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Virgen40 figure:hover > .contenidoVirgen40 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* BadBoys */
+.BadBoys{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2115px;
+    left: 505px;
+}
+.BadBoys figure{
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.BadBoys figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.BadBoys figure .contenidoBadBoys{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.BadBoys figure:hover > .contenidoBadBoys{
+    opacity: 1;
+    visibility: visible;
+}
+.BadBoys figure:hover > .contenidoBadBoys h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.BadBoys figure:hover > .contenidoBadBoys p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Pendiente2 */
+.Pendiente2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2400px;
+    left: 505px;
+}
+.Pendiente2 figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.Pendiente2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Pendiente2 figure .contenidoPendiente2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Pendiente2 figure:hover > .contenidoPendiente2{
+    opacity: 1;
+    visibility: visible;
+}
+.Pendiente2 figure:hover > .contenidoPendiente2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Pendiente2 figure:hover > .contenidoPendiente2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+
+/*-------------------------TERCERA FILA/LINEA-------------------------*/
+
+/* Proyecto x */
+.ProyectoX{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 168px;
+    left: 935px;
+}
+.ProyectoX figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ProyectoX figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ProyectoX figure .contenidoProyectoX {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ProyectoX figure:hover > .contenidoProyectoX{
+    opacity: 1;
+    visibility: visible;
+}
+.ProyectoX figure:hover > .contenidoProyectoX h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ProyectoX figure:hover > .contenidoProyectoX p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* American Pie 1 */
+.AmericanPie{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 935px;
+}
+.AmericanPie figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmericanPie figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmericanPie figure .contenidoAmericanPie {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmericanPie figure:hover > .contenidoAmericanPie{
+    opacity: 1;
+    visibility: visible;
+}
+.AmericanPie figure:hover > .contenidoAmericanPie h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmericanPie figure:hover > .contenidoAmericanPie p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* American Pie 2 */
+.AmericanPie2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 935px;
+}
+.AmericanPie2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmericanPie2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmericanPie2 figure .contenidoAmericanPie2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmericanPie2 figure:hover > .contenidoAmericanPie2{
+    opacity: 1;
+    visibility: visible;
+}
+.AmericanPie2 figure:hover > .contenidoAmericanPie2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmericanPie2 figure:hover > .contenidoAmericanPie2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* American Pie 3 */
+.AmericanPie3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 935px;
+}
+.AmericanPie3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmericanPie3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmericanPie3 figure .contenidoAmericanPie3 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmericanPie3 figure:hover > .contenidoAmericanPie3{
+    opacity: 1;
+    visibility: visible;
+}
+.AmericanPie3 figure:hover > .contenidoAmericanPie3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmericanPie3 figure:hover > .contenidoAmericanPie3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* American Pie 4 */
+.AmericanPie4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -975px;
+    left: 935px;
+}
+.AmericanPie4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmericanPie4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmericanPie4 figure .contenidoAmericanPie4 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmericanPie4 figure:hover > .contenidoAmericanPie4{
+    opacity: 1;
+    visibility: visible;
+}
+.AmericanPie4 figure:hover > .contenidoAmericanPie4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmericanPie4 figure:hover > .contenidoAmericanPie4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* American Pie 5 */
+.AmericanPie5{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1260px;
+    left: 935px;
+}
+.AmericanPie5 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmericanPie5 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmericanPie5 figure .contenidoAmericanPie5 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmericanPie5 figure:hover > .contenidoAmericanPie5{
+    opacity: 1;
+    visibility: visible;
+}
+.AmericanPie5 figure:hover > .contenidoAmericanPie5 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmericanPie5 figure:hover > .contenidoAmericanPie5 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* American Pie 6 */
+.AmericanPie6{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1545px;
+    left: 935px;
+}
+.AmericanPie6 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmericanPie6 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmericanPie6 figure .contenidoAmericanPie6 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmericanPie6 figure:hover > .contenidoAmericanPie6{
+    opacity: 1;
+    visibility: visible;
+}
+.AmericanPie6 figure:hover > .contenidoAmericanPie6 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmericanPie6 figure:hover > .contenidoAmericanPie6 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* American Pie 7 */
+.AmericanPie7{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1830px;
+    left: 935px;
+}
+.AmericanPie7 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmericanPie7 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmericanPie7 figure .contenidoAmericanPie7 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmericanPie7 figure:hover > .contenidoAmericanPie7{
+    opacity: 1;
+    visibility: visible;
+}
+.AmericanPie7 figure:hover > .contenidoAmericanPie7 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmericanPie7 figure:hover > .contenidoAmericanPie7 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* American Pie 8 */
+.AmericanPie8{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2115px;
+    left: 935px;
+}
+.AmericanPie8 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmericanPie8 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmericanPie8 figure .contenidoAmericanPie8 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmericanPie8 figure:hover > .contenidoAmericanPie8{
+    opacity: 1;
+    visibility: visible;
+}
+.AmericanPie8 figure:hover > .contenidoAmericanPie8 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmericanPie8 figure:hover > .contenidoAmericanPie8 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* American Pie 9 */
+.AmericanPie9{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2400px;
+    left: 935px;
+}
+.AmericanPie9 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmericanPie9 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmericanPie9 figure .contenidoAmericanPie9 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmericanPie9 figure:hover > .contenidoAmericanPie9{
+    opacity: 1;
+    visibility: visible;
+}
+.AmericanPie9 figure:hover > .contenidoAmericanPie9 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmericanPie9 figure:hover > .contenidoAmericanPie9 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

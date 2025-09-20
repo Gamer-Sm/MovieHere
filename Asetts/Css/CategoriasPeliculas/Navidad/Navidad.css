@@ -1,0 +1,377 @@
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 650px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+/*-------------------------PRIMERA FILA/LINEA-------------------------*/
+
+/* THE GRINCH */
+.Grinch{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.Grinch figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Grinch figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Grinch figure .contenidoGrinch{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Grinch figure:hover > .contenidoGrinch{
+    opacity: 1;
+    visibility: visible;
+}
+.Grinch figure:hover > .contenidoGrinch h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Grinch figure:hover > .contenidoGrinch p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* THE GRINCH ANIMADO*/
+.GrinchAnimado{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.GrinchAnimado figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.GrinchAnimado figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.GrinchAnimado figure .contenidoGrinchAnimado{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.GrinchAnimado figure:hover > .contenidoGrinchAnimado{
+    opacity: 1;
+    visibility: visible;
+}
+.GrinchAnimado figure:hover > .contenidoGrinchAnimado h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.GrinchAnimado figure:hover > .contenidoGrinchAnimado p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Klaus */
+.Klaus{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.Klaus figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Klaus figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Klaus figure .contenidoKlaus{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Klaus figure:hover > .contenidoKlaus{
+    opacity: 1;
+    visibility: visible;
+}
+.Klaus figure:hover > .contenidoKlaus h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Klaus figure:hover > .contenidoKlaus p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* MI POBRE ANGELITO */
+.mipobreangelito1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.mipobreangelito1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.mipobreangelito1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.mipobreangelito1 figure .contenidomipobreangelito1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.mipobreangelito1 figure:hover > .contenidomipobreangelito1{
+    opacity: 1;
+    visibility: visible;
+}
+.mipobreangelito1 figure:hover > .contenidomipobreangelito1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.mipobreangelito1 figure:hover > .contenidomipobreangelito1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+
+/* THE POLAR SPRESS*/
+.PolarEspress{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 170px;
+    left: 505px;
+}
+.PolarEspress figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PolarEspress figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PolarEspress figure .contenidoPolarEspress{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PolarEspress figure:hover > .contenidoPolarEspress{
+    opacity: 1;
+    visibility: visible;
+}
+.PolarEspress figure:hover > .contenidoPolarEspress h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PolarEspress figure:hover > .contenidoPolarEspress p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* RegaloPrometido */
+.RegaloPrometido{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+}
+.RegaloPrometido figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RegaloPrometido figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RegaloPrometido figure .contenidoRegaloPrometido{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RegaloPrometido figure:hover > .contenidoRegaloPrometido{
+    opacity: 1;
+    visibility: visible;
+}
+.RegaloPrometido figure:hover > .contenidoRegaloPrometido h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RegaloPrometido figure:hover > .contenidoRegaloPrometido p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* LOS FANTASMAS DE SCROOGE */
+
+.FantasmasScrooge{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+    
+}
+.FantasmasScrooge figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.FantasmasScrooge figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.FantasmasScrooge figure .contenidoFantasmasScrooge{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.FantasmasScrooge figure:hover > .contenidoFantasmasScrooge{
+    opacity: 1;
+    visibility: visible;
+}
+.FantasmasScrooge figure:hover > .contenidoFantasmasScrooge h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.FantasmasScrooge figure:hover > .contenidoFantasmasScrooge p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

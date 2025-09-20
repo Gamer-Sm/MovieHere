@@ -1,0 +1,220 @@
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 650px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+/*-------------------------PRIMERA FILA/LINEA-------------------------*/
+
+/* A Hard day's CGTnight */
+.Harddaysnight{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.Harddaysnight figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Harddaysnight figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Harddaysnight figure .contenidoHarddaysnight{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Harddaysnight figure:hover > .contenidoHarddaysnight{
+    opacity: 1;
+    visibility: visible;
+}
+.Harddaysnight figure:hover > .contenidoHarddaysnight h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Harddaysnight figure:hover > .contenidoHarddaysnight p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Help!*/
+.Help{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.Help figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Help figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Help figure .contenidoHelp{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Help figure:hover > .contenidoHelp{
+    opacity: 1;
+    visibility: visible;
+}
+.Help figure:hover > .contenidoHelp h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Help figure:hover > .contenidoHelp p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* LaLaLand */
+.LaLaLand{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.LaLaLand figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LaLaLand figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LaLaLand figure .contenidoLaLaLand{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LaLaLand figure:hover > .contenidoLaLaLand{
+    opacity: 1;
+    visibility: visible;
+}
+.LaLaLand figure:hover > .contenidoLaLaLand h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LaLaLand figure:hover > .contenidoLaLaLand p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* LEO */
+.Leo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.Leo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Leo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Leo figure .contenidoLeo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Leo figure:hover > .contenidoLeo{
+    opacity: 1;
+    visibility: visible;
+}
+.Leo figure:hover > .contenidoLeo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Leo figure:hover > .contenidoLeo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

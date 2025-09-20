@@ -1,0 +1,341 @@
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+.T2{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 550px;
+}
+/*-------------------------Primera FILA/LINEA-------------------------*/
+/* OPPENHEIMER*/
+.Oppenheimer{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -460px;
+    left: 75px;
+}
+.Oppenheimer figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Oppenheimer figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Oppenheimer figure .contenidoOppenheimer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Oppenheimer figure:hover > .contenidoOppenheimer{
+    opacity: 1;
+    visibility: visible;
+}
+.Oppenheimer figure:hover > .contenidoOppenheimer h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Oppenheimer figure:hover > .contenidoOppenheimer p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* TrumanShow */
+.TrumanShow{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -460px;
+    left: 505px;
+}
+.TrumanShow figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.TrumanShow figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TrumanShow figure .contenidoTrumanShow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TrumanShow figure:hover > .contenidoTrumanShow{
+    opacity: 1;
+    visibility: visible;
+}
+.TrumanShow figure:hover > .contenidoTrumanShow h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TrumanShow figure:hover > .contenidoTrumanShow p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Siempre a tu lado */
+
+.Siempreatulado{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -460px;
+    left: 935px;
+    
+}
+.Siempreatulado figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.Siempreatulado figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Siempreatulado figure .contenidoSiempreatulado{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Siempreatulado figure:hover > .contenidoSiempreatulado{
+    opacity: 1;
+    visibility: visible;
+}
+.Siempreatulado figure:hover > .contenidoSiempreatulado h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Siempreatulado figure:hover > .contenidoSiempreatulado p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+/* ReadyPlayerOne */
+.ReadyPlayerOne{
+    position: relative;
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -750px;
+    left: 75px;
+}
+.ReadyPlayerOne figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ReadyPlayerOne figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ReadyPlayerOne figure .contenidoReadyPlayerOne{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne{
+    opacity: 1;
+    visibility: visible;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* Paseo6 */
+.Paseo6{
+    position: relative;
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -750px;
+    left: 498px;
+}
+.Paseo6 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    left: 9px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Paseo6 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Paseo6 figure .contenidoPaseo6{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Paseo6 figure:hover > .contenidoPaseo6{
+    opacity: 1;
+    visibility: visible;
+}
+.Paseo6 figure:hover > .contenidoPaseo6 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Paseo6 figure:hover > .contenidoPaseo6 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* RedSocial */
+.RedSocial{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -750px;
+    left: 935px;
+}
+.RedSocial figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RedSocial figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RedSocial figure .contenidoRedSocial{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RedSocial figure:hover > .contenidoRedSocial{
+    opacity: 1;
+    visibility: visible;
+}
+.RedSocial figure:hover > .contenidoRedSocial h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RedSocial figure:hover > .contenidoRedSocial p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+

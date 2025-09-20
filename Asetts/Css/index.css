@@ -1,0 +1,529 @@
+
+:root{
+    --rojo: #ffffff;
+    --fondo: #141414;
+}
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+
+}
+.contenedor{
+    width: 90%;
+    margin:auto ;
+}
+header{
+    padding: 30px 0;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .Logotipo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    color: var(--rojo);
+    font-family: 40px;
+}
+header nav a{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+header nav a:hover,
+header nav a.Activado {
+    color: #fff;
+}
+.pelicula-principal{
+    font-size: 18px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgb(0, 0, .50) 0%, rgb(0,0,0, .50)30%);
+    background-position: center center;
+    display: flex;
+}
+.hallowen{
+    font-size: 18px;
+    display: flex;
+    color: #f99100;
+   
+}
+.descripcion{
+    font-size: 16px;
+    color: white;
+}
+
+.boton{
+
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+.T2{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 550px;
+    bottom: -270px;
+}
+:root{
+    --rojo: #f8f8f8;
+    --fondo: #141414;
+}
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+
+}
+.contenedor{
+    width: 90%;
+    margin:auto ;
+}
+header{
+    padding: 30px 0;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .Logotipo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    color: var(--rojo);
+    font-family: 40px;
+    
+}
+.Logotipo{
+    position: relative;
+    top: -40px;
+}
+
+header nav a{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+header nav a:hover,
+header nav a.Activado {
+    color: #fff;
+}
+
+.pelicula-principal{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgb(0, 0, .50) 0%, rgb(0,0,0, .10)30%),url(/Asetts/Imagenes/FondoInsideou2.png);
+    background-position: center center;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end
+}
+
+.pelicula-principal .contenedor{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+.pelicula-principal .titulo{
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+.pelicula-principal .descripcion{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+.pelicula-principal .boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+.contenedor-titulo-controles{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.contenedor-titulo-controles h3{
+    color: #fff;
+    font-size: 30px;
+}
+
+.pelicula-principal .boton:hover {
+    background: #fff;
+    color: #000;
+}
+.peliculas-recomendadas{
+    margin-bottom: 70px;
+}
+.peliculas-recomendadas .contenedor-principal{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.peliculas-recomendadas .contenedor-carrusel{
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.peliculas-recomendadas .contenedor-carrusel .carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.peliculas-recomendadas .contenedor-carrusel .carrusel .pelicula{
+   min-width: 20%;
+    transition: .3s ease all;
+    box-shadow:  5px 5px 10px rgba(0,0,0, .3);
+}
+.peliculas-recomendadas .contenedor-carrusel .carrusel .pelicula.hover {
+transform: scale(1.2);
+transform-origin: center;
+}
+.peliculas-recomendadas .contenedor-carrusel .carrusel .pelicula img{
+    width: 100%;
+    vertical-align: top;
+}
+/*-------------------------Primera FILA/LINEA-------------------------*/
+/* OPPENHEIMER*/
+.Oppenheimer{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -540px;
+    left: 75px;
+}
+.Oppenheimer figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Oppenheimer figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Oppenheimer figure .contenidoOppenheimer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Oppenheimer figure:hover > .contenidoOppenheimer{
+    opacity: 1;
+    visibility: visible;
+}
+.Oppenheimer figure:hover > .contenidoOppenheimer h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Oppenheimer figure:hover > .contenidoOppenheimer p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* TrumanShow */
+.TrumanShow{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -540px;
+    left: 505px;
+}
+.TrumanShow figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.TrumanShow figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TrumanShow figure .contenidoTrumanShow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TrumanShow figure:hover > .contenidoTrumanShow{
+    opacity: 1;
+    visibility: visible;
+}
+.TrumanShow figure:hover > .contenidoTrumanShow h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TrumanShow figure:hover > .contenidoTrumanShow p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Siempre a tu lado */
+
+.Siempreatulado{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -540px;
+    left: 935px;
+    
+}
+.Siempreatulado figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.Siempreatulado figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Siempreatulado figure .contenidoSiempreatulado{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Siempreatulado figure:hover > .contenidoSiempreatulado{
+    opacity: 1;
+    visibility: visible;
+}
+.Siempreatulado figure:hover > .contenidoSiempreatulado h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Siempreatulado figure:hover > .contenidoSiempreatulado p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+/* ReadyPlayerOne */
+.ReadyPlayerOne{
+    position: relative;
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -830px;
+    left: 75px;
+}
+.ReadyPlayerOne figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ReadyPlayerOne figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ReadyPlayerOne figure .contenidoReadyPlayerOne{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne{
+    opacity: 1;
+    visibility: visible;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* Paseo6 */
+.Paseo6{
+    position: relative;
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -830px;
+    left: 498px;
+}
+.Paseo6 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    left: 9px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Paseo6 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Paseo6 figure .contenidoPaseo6{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Paseo6 figure:hover > .contenidoPaseo6{
+    opacity: 1;
+    visibility: visible;
+}
+.Paseo6 figure:hover > .contenidoPaseo6 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Paseo6 figure:hover > .contenidoPaseo6 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* RedSocial */
+.RedSocial{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -830px;
+    left: 935px;
+}
+.RedSocial figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RedSocial figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RedSocial figure .contenidoRedSocial{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RedSocial figure:hover > .contenidoRedSocial{
+    opacity: 1;
+    visibility: visible;
+}
+.RedSocial figure:hover > .contenidoRedSocial h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RedSocial figure:hover > .contenidoRedSocial p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

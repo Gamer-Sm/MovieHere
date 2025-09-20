@@ -1,0 +1,65 @@
+.mantenimiento{
+    font-size: 20px;
+    color: white;
+}
+:root{
+    --rojo: #ffffff;
+    --fondo: #141414;
+}
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+
+}
+.contenedor{
+    width: 90%;
+    margin:auto ;
+}
+header{
+    padding: 30px 0;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .Logotipo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    color: var(--rojo);
+    font-family: 40px;
+}
+header nav a{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+header nav a:hover,
+header nav a.Activado {
+    color: #fff;
+}
+.pelicula-principal{
+    font-size: 18px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgb(0, 0, .50) 0%, rgb(0,0,0, .50)30%);
+    background-position: center center;
+    display: flex;
+}
+.hallowen{
+    font-size: 18px;
+    display: flex;
+    color: #f99100;
+   
+}
+.descripcion{
+    font-size: 16px;
+    color: white;
+}

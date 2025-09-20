@@ -1,0 +1,682 @@
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 650px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+/*-------------------------PRIMERA FILA/LINEA-------------------------*/
+
+/* Bohemian Rhapsody */
+.Bohemian{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.Bohemian figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Bohemian figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Bohemian figure .contenidoBohemian{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Bohemian figure:hover > .contenidoBohemian{
+    opacity: 1;
+    visibility: visible;
+}
+.Bohemian figure:hover > .contenidoBohemian h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Bohemian figure:hover > .contenidoBohemian p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Historias Cruzadas*/
+.HistoriasCruzadas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.HistoriasCruzadas figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HistoriasCruzadas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HistoriasCruzadas figure .contenidoHistoriasCruzadas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HistoriasCruzadas figure:hover > .contenidoHistoriasCruzadas{
+    opacity: 1;
+    visibility: visible;
+}
+.HistoriasCruzadas figure:hover > .contenidoHistoriasCruzadas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HistoriasCruzadas figure:hover > .contenidoHistoriasCruzadas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Mujer Bonita/ Pretty Woman*/
+.MujerBonita{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.MujerBonita figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.MujerBonita figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MujerBonita figure .contenidoMujerBonita{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MujerBonita figure:hover > .contenidoMujerBonita{
+    opacity: 1;
+    visibility: visible;
+}
+.MujerBonita figure:hover > .contenidoMujerBonita h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MujerBonita figure:hover > .contenidoMujerBonita p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* PERFUME DE MUJER */
+.PerfumeMujer{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.PerfumeMujer figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PerfumeMujer figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PerfumeMujer figure .contenidoPerfumeMujer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PerfumeMujer figure:hover > .contenidoPerfumeMujer{
+    opacity: 1;
+    visibility: visible;
+}
+.PerfumeMujer figure:hover > .contenidoPerfumeMujer h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PerfumeMujer figure:hover > .contenidoPerfumeMujer p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* sociedadpoetasmuertos */
+.sociedadpoetasmuertos{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 75px;
+}
+.sociedadpoetasmuertos figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.sociedadpoetasmuertos figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.sociedadpoetasmuertos figure .contenidosociedadpoetasmuertos{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.sociedadpoetasmuertos figure:hover > .contenidosociedadpoetasmuertos{
+    opacity: 1;
+    visibility: visible;
+}
+.sociedadpoetasmuertos figure:hover > .contenidosociedadpoetasmuertos h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.sociedadpoetasmuertos figure:hover > .contenidosociedadpoetasmuertos p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+
+/* EL NIÑO CON PIJAMA DE RAYAS*/
+.PijamaRayas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 170px;
+    left: 505px;
+}
+.PijamaRayas figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PijamaRayas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PijamaRayas figure .contenidoPijamaRayas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PijamaRayas figure:hover > .contenidoPijamaRayas{
+    opacity: 1;
+    visibility: visible;
+}
+.PijamaRayas figure:hover > .contenidoPijamaRayas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PijamaRayas figure:hover > .contenidoPijamaRayas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* RedSocial */
+.RedSocial{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+}
+.RedSocial figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RedSocial figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RedSocial figure .contenidoRedSocial{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RedSocial figure:hover > .contenidoRedSocial{
+    opacity: 1;
+    visibility: visible;
+}
+.RedSocial figure:hover > .contenidoRedSocial h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RedSocial figure:hover > .contenidoRedSocial p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* Siempre a tu lado */
+
+.Siempreatulado{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+    
+}
+.Siempreatulado figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.Siempreatulado figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Siempreatulado figure .contenidoSiempreatulado{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Siempreatulado figure:hover > .contenidoSiempreatulado{
+    opacity: 1;
+    visibility: visible;
+}
+.Siempreatulado figure:hover > .contenidoSiempreatulado h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Siempreatulado figure:hover > .contenidoSiempreatulado p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* VOTOS DE AMOR */
+
+.VotosDeAmor{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 505px;
+    
+}
+.VotosDeAmor figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.VotosDeAmor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.VotosDeAmor figure .contenidoVotosDeAmor{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.VotosDeAmor figure:hover > .contenidoVotosDeAmor{
+    opacity: 1;
+    visibility: visible;
+}
+.VotosDeAmor figure:hover > .contenidoVotosDeAmor h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.VotosDeAmor figure:hover > .contenidoVotosDeAmor p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------TERCERA FILA/LINEA-------------------------*/
+/* Hambre de Poder */
+.HambrePoder{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 168px;
+    left: 935px;
+}
+.HambrePoder figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HambrePoder figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HambrePoder figure .contenidoHambrePoder{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HambrePoder figure:hover > .contenidoHambrePoder{
+    opacity: 1;
+    visibility: visible;
+}
+.HambrePoder figure:hover > .contenidoHambrePoder h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HambrePoder figure:hover > .contenidoHambrePoder p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* la Razon de estar Contigo*/
+.RazonContigo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 935px;
+}
+.RazonContigo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RazonContigo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RazonContigo figure .contenidoRazonContigo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RazonContigo figure:hover > .contenidoRazonContigo{
+    opacity: 1;
+    visibility: visible;
+}
+.RazonContigo figure:hover > .contenidoRazonContigo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RazonContigo figure:hover > .contenidoRazonContigo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Elvis Preley*/
+.ElvisPresley{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 935px;
+}
+.ElvisPresley figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ElvisPresley figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ElvisPresley figure .contenidoElvisPresley{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ElvisPresley figure:hover > .contenidoElvisPresley{
+    opacity: 1;
+    visibility: visible;
+}
+.ElvisPresley figure:hover > .contenidoElvisPresley h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ElvisPresley figure:hover > .contenidoElvisPresley p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*MidWay*/
+.MidWay{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -695px;
+    left: 935px;
+}
+.MidWay figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.MidWay figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MidWay figure .contenidoMidWay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MidWay figure:hover > .contenidoMidWay{
+    opacity: 1;
+    visibility: visible;
+}
+.MidWay figure:hover > .contenidoMidWay h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MidWay figure:hover > .contenidoMidWay p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

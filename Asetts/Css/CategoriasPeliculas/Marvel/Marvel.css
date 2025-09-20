@@ -1,0 +1,1440 @@
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 650px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+/*-------------------------PRIMERA FILA/LINEA-------------------------*/
+/*  SPIDER-MAN 1*/
+.Spiderman1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.Spiderman1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Spiderman1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Spiderman1 figure .contenidoSpiderman1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Spiderman1 figure:hover > .contenidoSpiderman1{
+    opacity: 1;
+    visibility: visible;
+}
+.Spiderman1 figure:hover > .contenidoSpiderman1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Spiderman1 figure:hover > .contenidoSpiderman1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*  SPIDER-MAN: INTO SPIDER-VERSE*/
+.Spider-miles2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.Spider-miles2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Spider-miles2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Spider-miles2 figure .contenidoSpider-miles2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Spider-miles2 figure:hover > .contenidoSpider-miles2{
+    opacity: 1;
+    visibility: visible;
+}
+.Spider-miles2 figure:hover > .contenidoSpider-miles2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Spider-miles2 figure:hover > .contenidoSpider-miles2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*CapitánAmérica1*/
+.CapitánAmérica1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.CapitánAmérica1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CapitánAmérica1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CapitánAmérica1 figure .contenidoCapitánAmérica1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CapitánAmérica1 figure:hover > .contenidoCapitánAmérica1{
+    opacity: 1;
+    visibility: visible;
+}
+.CapitánAmérica1 figure:hover > .contenidoCapitánAmérica1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CapitánAmérica1 figure:hover > .contenidoCapitánAmérica1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*IronMan2*/
+.IronMan2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+    
+}
+.IronMan2 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.IronMan2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.IronMan2 figure .contenidoIronMan2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.IronMan2 figure:hover > .contenidoIronMan2{
+    opacity: 1;
+    visibility: visible;
+}
+.IronMan2 figure:hover > .contenidoIronMan2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.IronMan2 figure:hover > .contenidoIronMan2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* LosVengadores1 */
+.LosVengadores1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 75px;
+}
+.LosVengadores1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LosVengadores1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LosVengadores1 figure .contenidoLosVengadores1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LosVengadores1 figure:hover > .contenidoLosVengadores1{
+    opacity: 1;
+    visibility: visible;
+}
+.LosVengadores1 figure:hover > .contenidoLosVengadores1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LosVengadores1 figure:hover > .contenidoLosVengadores1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* CapitanAmericaSoldadoInvierno */
+.CapitanAmericaSoldadoInvierno{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 75px;
+}
+.CapitanAmericaSoldadoInvierno figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CapitanAmericaSoldadoInvierno figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CapitanAmericaSoldadoInvierno figure .contenidoCapitanAmericaSoldadoInvierno{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CapitanAmericaSoldadoInvierno figure:hover > .contenidoCapitanAmericaSoldadoInvierno{
+    opacity: 1;
+    visibility: visible;
+}
+.CapitanAmericaSoldadoInvierno figure:hover > .contenidoCapitanAmericaSoldadoInvierno h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CapitanAmericaSoldadoInvierno figure:hover > .contenidoCapitanAmericaSoldadoInvierno p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* VengadoresEraUltron */
+.VengadoresEraUltron{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 75px;
+}
+.VengadoresEraUltron figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.VengadoresEraUltron figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.VengadoresEraUltron figure .contenidoVengadoresEraUltron{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.VengadoresEraUltron figure:hover > .contenidoVengadoresEraUltron{
+    opacity: 1;
+    visibility: visible;
+}
+.VengadoresEraUltron figure:hover > .contenidoVengadoresEraUltron h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.VengadoresEraUltron figure:hover > .contenidoVengadoresEraUltron p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* BlackWidow */
+.BlackWidow{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 75px;
+}
+.BlackWidow figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.BlackWidow figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.BlackWidow figure .contenidoBlackWidow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.BlackWidow figure:hover > .contenidoBlackWidow{
+    opacity: 1;
+    visibility: visible;
+}
+.BlackWidow figure:hover > .contenidoBlackWidow h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.BlackWidow figure:hover > .contenidoBlackWidow p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* AntMan2 */
+.AntMan2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 75px;
+}
+.AntMan2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AntMan2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AntMan2 figure .contenidoAntMan2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AntMan2 figure:hover > .contenidoAntMan2{
+    opacity: 1;
+    visibility: visible;
+}
+.AntMan2 figure:hover > .contenidoAntMan2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AntMan2 figure:hover > .contenidoAntMan2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------Segunda FILA/LINEA-------------------------*/
+/*  SPIDER-MAN 2*/
+.Spiderman2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 170px;
+    left: 505px;
+}
+.Spiderman2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Spiderman2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Spiderman2 figure .contenidoSpiderman2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Spiderman2 figure:hover > .contenidoSpiderman2{
+    opacity: 1;
+    visibility: visible;
+}
+.Spiderman2 figure:hover > .contenidoSpiderman2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Spiderman2 figure:hover > .contenidoSpiderman2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* SPIDER-MAN: UN NUEVO UNIVERSO */
+.Spider-miles{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+}
+.Spider-miles figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Spider-miles figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Spider-miles figure .contenidoSpider-miles{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Spider-miles figure:hover > .contenidoSpider-miles{
+    opacity: 1;
+    visibility: visible;
+}
+.Spider-miles figure:hover > .contenidoSpider-miles h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Spider-miles figure:hover > .contenidoSpider-miles p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*CapitanaMarvel*/
+.CapitanaMarvel{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+}
+.CapitanaMarvel figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CapitanaMarvel figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CapitanaMarvel figure .contenidoCapitanaMarvel{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CapitanaMarvel figure:hover > .contenidoCapitanaMarvel{
+    opacity: 1;
+    visibility: visible;
+}
+.CapitanaMarvel figure:hover > .contenidoCapitanaMarvel h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CapitanaMarvel figure:hover > .contenidoCapitanaMarvel p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Hulk*/
+.ElincreibleHulk{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 505px;
+}
+.ElincreibleHulk figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ElincreibleHulk figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ElincreibleHulk figure .contenidoElincreibleHulk{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ElincreibleHulk figure:hover > .contenidoElincreibleHulk{
+    opacity: 1;
+    visibility: visible;
+}
+.ElincreibleHulk figure:hover > .contenidoElincreibleHulk h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ElincreibleHulk figure:hover > .contenidoElincreibleHulk p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* IronMan3 */
+.IronMan3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 505px;
+}
+.IronMan3 figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.IronMan3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.IronMan3 figure .contenidoIronMan3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.IronMan3 figure:hover > .contenidoIronMan3{
+    opacity: 1;
+    visibility: visible;
+}
+.IronMan3 figure:hover > .contenidoIronMan3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.IronMan3 figure:hover > .contenidoIronMan3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*GuardianesGalaxia1*/
+.GuardianesGalaxia1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 500px;
+}
+.GuardianesGalaxia1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.GuardianesGalaxia1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.GuardianesGalaxia1 figure .contenidoGuardianesGalaxia1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.GuardianesGalaxia1 figure:hover > .contenidoGuardianesGalaxia1{
+    opacity: 1;
+    visibility: visible;
+}
+.GuardianesGalaxia1 figure:hover > .contenidoGuardianesGalaxia1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.GuardianesGalaxia1 figure:hover > .contenidoGuardianesGalaxia1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*AntMan*/
+.AntMan{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 500px;
+}
+.AntMan figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AntMan figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AntMan figure .contenidoAntMan{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AntMan figure:hover > .contenidoAntMan{
+    opacity: 1;
+    visibility: visible;
+}
+.AntMan figure:hover > .contenidoAntMan h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AntMan figure:hover > .contenidoAntMan p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*Pantera Negra*/
+.PanteraNegra{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 500px;
+}
+.PanteraNegra figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PanteraNegra figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PanteraNegra figure .contenidoPanteraNegra{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PanteraNegra figure:hover > .contenidoPanteraNegra{
+    opacity: 1;
+    visibility: visible;
+}
+.PanteraNegra figure:hover > .contenidoPanteraNegra h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PanteraNegra figure:hover > .contenidoPanteraNegra p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Avengers Infinity War */
+.AvengersInfinityWar{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 500px;
+}
+.AvengersInfinityWar figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AvengersInfinityWar figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AvengersInfinityWar figure .contenidoAvengersInfinityWar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AvengersInfinityWar figure:hover > .contenidoAvengersInfinityWar{
+    opacity: 1;
+    visibility: visible;
+}
+.AvengersInfinityWar figure:hover > .contenidoAvengersInfinityWar h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AvengersInfinityWar figure:hover > .contenidoAvengersInfinityWar p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------Tercera FILA/LINEA-------------------------*/
+/*  SPIDER-MAN 3*/
+.Spiderman3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 170px;
+    left: 935px;
+}
+.Spiderman3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Spiderman3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Spiderman3 figure .contenidoSpiderman3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Spiderman3 figure:hover > .contenidoSpiderman3{
+    opacity: 1;
+    visibility: visible;
+}
+.Spiderman3 figure:hover > .contenidoSpiderman3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Spiderman3 figure:hover > .contenidoSpiderman3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------Tercera FILA/LINEA-------------------------*/
+/*  SPIDER-MAN 3*/
+.Spiderman3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 170px;
+    left: 935px;
+}
+.Spiderman3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Spiderman3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Spiderman3 figure .contenidoSpiderman3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Spiderman3 figure:hover > .contenidoSpiderman3{
+    opacity: 1;
+    visibility: visible;
+}
+.Spiderman3 figure:hover > .contenidoSpiderman3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Spiderman3 figure:hover > .contenidoSpiderman3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*  Ghost Rider*/
+.Ghostrider1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 935px;
+}
+.Ghostrider1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Ghostrider1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Ghostrider1 figure .contenidoGhostrider1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Ghostrider1 figure:hover > .contenidoGhostrider1{
+    opacity: 1;
+    visibility: visible;
+}
+.Ghostrider1 figure:hover > .contenidoGhostrider1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Ghostrider1 figure:hover > .contenidoGhostrider1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*IronMan1*/
+.IronMan1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 935px;
+    
+}
+.IronMan1 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.IronMan1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.IronMan1 figure .contenidoIronMan1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.IronMan1 figure:hover > .contenidoIronMan1{
+    opacity: 1;
+    visibility: visible;
+}
+.IronMan1 figure:hover > .contenidoIronMan1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.IronMan1 figure:hover > .contenidoIronMan1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Thor1*/
+.Thor1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 935px;
+    
+}
+.Thor1 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.Thor1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Thor1 figure .contenidoThor1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Thor1 figure:hover > .contenidoThor1{
+    opacity: 1;
+    visibility: visible;
+}
+.Thor1 figure:hover > .contenidoThor1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Thor1 figure:hover > .contenidoThor1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Thor2 */
+.Thor2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 935px;
+}
+.Thor2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Thor2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Thor2 figure .contenidoThor2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Thor2 figure:hover > .contenidoThor2{
+    opacity: 1;
+    visibility: visible;
+}
+.Thor2 figure:hover > .contenidoThor2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Thor2 figure:hover > .contenidoThor2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* GuardianesGalaxia2 */
+.GuardianesGalaxia2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 935px;
+}
+.GuardianesGalaxia2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.GuardianesGalaxia2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.GuardianesGalaxia2 figure .contenidoGuardianesGalaxia2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.GuardianesGalaxia2 figure:hover > .contenidoGuardianesGalaxia2{
+    opacity: 1;
+    visibility: visible;
+}
+.GuardianesGalaxia2 figure:hover > .contenidoGuardianesGalaxia2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.GuardianesGalaxia2figure:hover > .contenidoGuardianesGalaxia2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Capitan America Civil War */
+.CapitanAmericaCivilWar{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 935px;
+}
+.CapitanAmericaCivilWar figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CapitanAmericaCivilWar figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CapitanAmericaCivilWar figure .contenidoCapitanAmericaCivilWar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CapitanAmericaCivilWar figure:hover > .contenidoCapitanAmericaCivilWar{
+    opacity: 1;
+    visibility: visible;
+}
+.CapitanAmericaCivilWar figure:hover > .contenidoCapitanAmericaCivilWar h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CapitanAmericaCivilWar figure:hover > .contenidoCapitanAmericaCivilWar p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Thor Ragnarok */
+.Thor3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 935px;
+}
+.Thor3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Thor3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Thor3 figure .contenidoThor3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Thor3 figure:hover > .contenidoThor3{
+    opacity: 1;
+    visibility: visible;
+}
+.Thor3 figure:hover > .contenidoThor3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Thor3 figure:hover > .contenidoThor3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* AvengersEndGame */
+.AvengersEndGame{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 935px;
+}
+.AvengersEndGame figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AvengersEndGame figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AvengersEndGame figure .contenidoAvengersEndGame{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AvengersEndGame figure:hover > .contenidoAvengersEndGame{
+    opacity: 1;
+    visibility: visible;
+}
+.AvengersEndGame figure:hover > .contenidoAvengersEndGame h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AvengersEndGame figure:hover > .contenidoAvengersEndGame p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

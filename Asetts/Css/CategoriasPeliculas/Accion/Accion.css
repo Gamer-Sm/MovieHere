@@ -1,0 +1,1659 @@
+
+.titulo{
+    
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 650px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+/* Rapidos Y Furiosos 1*/
+.RapidosFuriososo1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.RapidosFuriososo1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RapidosFuriososo1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RapidosFuriososo1 figure .contenidoRapidosFuriosos1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RapidosFuriososo1 figure:hover > .contenidoRapidosFuriosos1{
+    opacity: 1;
+    visibility: visible;
+}
+.RapidosFuriososo1 figure:hover > .contenidoRapidosFuriosos1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RapidosFuriososo1 figure:hover > .contenidoRapidosFuriosos1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Rapidos Y Furiosos 2 */
+.RapidosFuriososo2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.RapidosFuriososo2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RapidosFuriososo2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RapidosFuriososo2 figure .contenidoRapidosFuriosos2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RapidosFuriososo2 figure:hover > .contenidoRapidosFuriosos2{
+    opacity: 1;
+    visibility: visible;
+}
+.RapidosFuriososo2 figure:hover > .contenidoRapidosFuriosos2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RapidosFuriososo2 figure:hover > .contenidoRapidosFuriosos2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Rapidos Y Furiosos 3*/
+.RapidosFuriososo3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.RapidosFuriososo3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RapidosFuriososo3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RapidosFuriososo3 figure .contenidoRapidosFuriosos3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RapidosFuriososo3 figure:hover > .contenidoRapidosFuriosos3{
+    opacity: 1;
+    visibility: visible;
+}
+.RapidosFuriososo3 figure:hover > .contenidoRapidosFuriosos3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RapidosFuriososo3 figure:hover > .contenidoRapidosFuriosos3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Rapidos Y Furiosos 4*/
+.RF4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.RF4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RF4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RF4 figure .contenidoRF4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RF4 figure:hover > .contenidoRF4{
+    opacity: 1;
+    visibility: visible;
+}
+.RF4 figure:hover > .contenidoRF4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RF4 figure:hover > .contenidoRF4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Rapidos Y Furiosos 5*/
+.RF5{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 75px;
+}
+.RF5 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RF5 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RF5 figure .contenidoRF5{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RF5 figure:hover > .contenidoRF5{
+    opacity: 1;
+    visibility: visible;
+}
+.RF5 figure:hover > .contenidoRF5 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RF5 figure:hover > .contenidoRF5 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Rapidos Y Furiosos 6*/
+.RF6{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 75px;
+}
+.RF6 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RF6 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RF6 figure .contenidoRF6{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RF6 figure:hover > .contenidoRF6{
+    opacity: 1;
+    visibility: visible;
+}
+.RF6 figure:hover > .contenidoRF6 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RF6 figure:hover > .contenidoR6 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Rapidos Y Furiosos 7*/
+.RF7{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 75px;
+}
+.RF7 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RF7 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RF7 figure .contenidoRF7{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RF7 figure:hover > .contenidoRF7{
+    opacity: 1;
+    visibility: visible;
+}
+.RF7 figure:hover > .contenidoRF7 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RF7 figure:hover > .contenidoR7 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Rapidos Y Furiosos 8*/
+.RF8{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 75px;
+}
+.RF8 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RF8 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RF8 figure .contenidoRF8{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RF8 figure:hover > .contenidoRF8{
+    opacity: 1;
+    visibility: visible;
+}
+.RF8 figure:hover > .contenidoRF8 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RF8 figure:hover > .contenidoR8 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Rapidos Y Furiosos 9*/
+.RF9{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 75px;
+}
+.RF9 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RF9 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RF9 figure .contenidoRF9{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RF9 figure:hover > .contenidoRF9{
+    opacity: 1;
+    visibility: visible;
+}
+.RF9 figure:hover > .contenidoRF9 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RF9 figure:hover > .contenidoR9 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Rapidos Y Furiosos 10*/
+.RF10{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2421px;
+    left: 75px;
+}
+.RF10 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RF10 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RF10 figure .contenidoRF10{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RF10 figure:hover > .contenidoRF10{
+    opacity: 1;
+    visibility: visible;
+}
+.RF10 figure:hover > .contenidoRF10 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RF10 figure:hover > .contenidoR10 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+
+/* Scarface */
+.Scarface{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 505px;
+}
+.Scarface figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Scarface figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Scarface figure .contenidoScarface{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Scarface figure:hover > .contenidoScarface{
+    opacity: 1;
+    visibility: visible;
+}
+.Scarface figure:hover > .contenidoScarface h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Scarface figure:hover > .contenidoScarface p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* R.I.P.D */
+.RIPD{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+}
+.RIPD figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RIPD figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RIPD figure .contenidoRIPD{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RIPD figure:hover > .contenidoRIPD{
+    opacity: 1;
+    visibility: visible;
+}
+.RIPD figure:hover > .contenidoRIPD h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RIPD figure:hover > .contenidoRIPD p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Kong Isla Calavera */
+.Kong1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+    
+}
+.Kong1 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.Kong1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Kong1 figure .contenidoKong1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Kong1 figure:hover > .contenidoKong1{
+    opacity: 1;
+    visibility: visible;
+}
+.Kong1 figure:hover > .contenidoKong1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Kong1 figure:hover > .contenidoKong1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* OPPENHEIMER*/
+.Oppenheimer{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 505px;
+}
+.Oppenheimer figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Oppenheimer figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Oppenheimer figure .contenidoOppenheimer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Oppenheimer figure:hover > .contenidoOppenheimer{
+    opacity: 1;
+    visibility: visible;
+}
+.Oppenheimer figure:hover > .contenidoOppenheimer h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Oppenheimer figure:hover > .contenidoOppenheimer p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* RoboCop1*/
+.RoboCop1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 505px;
+}
+.RoboCop1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RoboCop1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RoboCop1 figure .contenidoRoboCop1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RoboCop1 figure:hover > .contenidoRoboCop1{
+    opacity: 1;
+    visibility: visible;
+}
+.RoboCop1 figure:hover > .contenidoRoboCop1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RoboCop1 figure:hover > .contenidoRoboCop1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+/* RoboCop2*/
+.RoboCop2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 505px;
+}
+.RoboCop2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RoboCop2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RoboCop2 figure .contenidoRoboCop2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RoboCop2 figure:hover > .contenidoRoboCop2{
+    opacity: 1;
+    visibility: visible;
+}
+.RoboCop2 figure:hover > .contenidoRoboCop2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RoboCop2 figure:hover > .contenidoRoboCop2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* RoboCop3*/
+.RoboCop3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 505px;
+}
+.RoboCop3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RoboCop3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RoboCop3 figure .contenidoRoboCop3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RoboCop3 figure:hover > .contenidoRoboCop3{
+    opacity: 1;
+    visibility: visible;
+}
+.RoboCop3 figure:hover > .contenidoRoboCop3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RoboCop3 figure:hover > .contenidoRoboCop3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* RoboCop4*/
+.RoboCop4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 505px;
+}
+.RoboCop4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RoboCop4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RoboCop4 figure .contenidoRoboCop4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RoboCop4 figure:hover > .contenidoRoboCop4{
+    opacity: 1;
+    visibility: visible;
+}
+.RoboCop4 figure:hover > .contenidoRoboCop4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RoboCop4 figure:hover > .contenidoRoboCop4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Matrix*/
+.Matrix{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 505px;
+}
+.Matrix figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Matrix figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Matrix figure .contenidoMatrix{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Matrix figure:hover > .contenidoMatrix{
+    opacity: 1;
+    visibility: visible;
+}
+.Matrix figure:hover > .contenidoMatrix h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Matrix figure:hover > .contenidoMatrix p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Matrixrevoluciones*/
+.Matrixrevoluciones{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2421px;
+    left: 505px;
+}
+.Matrixrevoluciones figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Matrixrevoluciones figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Matrixrevoluciones figure .contenidoMatrixrevoluciones{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Matrixrevoluciones figure:hover > .contenidoMatrixrevoluciones{
+    opacity: 1;
+    visibility: visible;
+}
+.Matrixrevoluciones figure:hover > .contenidoMatrixrevoluciones h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Matrixrevoluciones figure:hover > .contenidoMatrixrevoluciones p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* MatrixReloaded*/
+.MatrixReloaded{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2709px;
+    left: 505px;
+}
+.MatrixReloaded figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.MatrixReloaded figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MatrixReloaded figure .contenidoMatrixReloaded{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MatrixReloaded figure:hover > .contenidoMatrixReloaded{
+    opacity: 1;
+    visibility: visible;
+}
+.MatrixReloaded figure:hover > .contenidoMatrixReloaded h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MatrixReloaded figure:hover > .contenidoMatrixReloaded p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* MatrixResurrecciones*/
+.MatrixResurrecciones{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2997px;
+    left: 505px;
+}
+.MatrixResurrecciones figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.MatrixResurrecciones figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MatrixResurrecciones figure .contenidoMatrixResurrecciones{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MatrixResurrecciones figure:hover > .contenidoMatrixResurrecciones{
+    opacity: 1;
+    visibility: visible;
+}
+.MatrixResurrecciones figure:hover > .contenidoMatrixResurrecciones h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MatrixResurrecciones figure:hover > .contenidoMatrixResurrecciones p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------TERCERA FILA/LINEA-------------------------*/
+/* Karate Kid */
+.KarateKid{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 935px;
+}
+.KarateKid figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.KarateKid figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.KarateKid figure .contenidoKarateKid{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.KarateKid figure:hover > .contenidoKarateKid{
+    opacity: 1;
+    visibility: visible;
+}
+.KarateKid figure:hover > .contenidoKarateKid h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.KarateKid figure:hover > .contenidoKarateKid p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*preciodelmañana*/
+.preciodelmañana{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 935px;
+}
+.preciodelmañana figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.preciodelmañana figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.preciodelmañana figure .contenidopreciodelmañana{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.preciodelmañana figure:hover > .contenidopreciodelmañana{
+    opacity: 1;
+    visibility: visible;
+}
+.preciodelmañana figure:hover > .contenidopreciodelmañana h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.preciodelmañana figure:hover > .contenidopreciodelmañana p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Sociedad de la Nieve*/
+.SociedadNieve{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 935px;
+    
+}
+.SociedadNieve figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.SociedadNieve figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.SociedadNieve figure .contenidoSociedadNieve{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.SociedadNieve figure:hover > .contenidoSociedadNieve{
+    opacity: 1;
+    visibility: visible;
+}
+.SociedadNieve figure:hover > .contenidoSociedadNieve h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.SociedadNieve figure:hover > .contenidoSociedadNieve p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*MadMax1*/
+.MadMax1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 935px;
+    
+}
+.MadMax1 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.MadMax1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MadMax1 figure .contenidoMadMax1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MadMax1 figure:hover > .contenidoMadMax1{
+    opacity: 1;
+    visibility: visible;
+}
+.MadMax1 figure:hover > .contenidoMadMax1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MadMax1 figure:hover > .contenidoMadMax1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*MadMax2*/
+.MadMax2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 935px;
+    
+}
+.MadMax2 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.MadMax2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MadMax2 figure .contenidoMadMax2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MadMax2 figure:hover > .contenidoMadMax2{
+    opacity: 1;
+    visibility: visible;
+}
+.MadMax2 figure:hover > .contenidoMadMax2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MadMax2 figure:hover > .contenidoMadMax2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*MadMax3*/
+.MadMax3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 935px;
+    
+}
+.MadMax3 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.MadMax3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MadMax3 figure .contenidoMadMax3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MadMax3 figure:hover > .contenidoMadMax3{
+    opacity: 1;
+    visibility: visible;
+}
+.MadMax3 figure:hover > .contenidoMadMax3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MadMax3 figure:hover > .contenidoMadMax3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*KarateKid1*/
+.KarateKid1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1554px;
+    left: 935px;
+    
+}
+.KarateKid1 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.KarateKid1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.KarateKid1 figure .contenidoKarateKid1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.KarateKid1 figure:hover > .contenidoKarateKid1{
+    opacity: 1;
+    visibility: visible;
+}
+.KarateKid1 figure:hover > .contenidoKarateKid1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.KarateKid1 figure:hover > .contenidoKarateKid1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*KarateKid2*/
+.KarateKid2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1842px;
+    left: 935px;
+    
+}
+.KarateKid2 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.KarateKid2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.KarateKid2 figure .contenidoKarateKid2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.KarateKid2 figure:hover > .contenidoKarateKid2{
+    opacity: 1;
+    visibility: visible;
+}
+.KarateKid2 figure:hover > .contenidoKarateKid2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.KarateKid2 figure:hover > .contenidoKarateKid2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*KarateKid3*/
+.KarateKid3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2130px;
+    left: 935px;
+    
+}
+.KarateKid3 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.KarateKid3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.KarateKid3 figure .contenidoKarateKid3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.KarateKid3 figure:hover > .contenidoKarateKid3{
+    opacity: 1;
+    visibility: visible;
+}
+.KarateKid3 figure:hover > .contenidoKarateKid3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.KarateKid3 figure:hover > .contenidoKarateKid3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*KarateKid4*/
+.KarateKid4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2418px;
+    left: 935px;
+    
+}
+.KarateKid4 figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.KarateKid4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.KarateKid4 figure .contenidoKarateKid4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.KarateKid4 figure:hover > .contenidoKarateKid4{
+    opacity: 1;
+    visibility: visible;
+}
+.KarateKid4 figure:hover > .contenidoKarateKid4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.KarateKid4 figure:hover > .contenidoKarateKid4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+

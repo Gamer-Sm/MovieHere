@@ -1,0 +1,942 @@
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 650px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+/*-------------------------PRIMERA FILA/LINEA-------------------------*/
+
+/* Como Perros Y Gatos */
+.PerrosyGatos{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.PerrosyGatos figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PerrosyGatos figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PerrosyGatos figure .contenidoPerrosyGatos{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PerrosyGatos figure:hover > .contenidoPerrosyGatos{
+    opacity: 1;
+    visibility: visible;
+}
+.PerrosyGatos figure:hover > .contenidoPerrosyGatos h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PerrosyGatos figure:hover > .contenidoPerrosyGatos p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Como Perros Y Gatos 2*/
+.PerrosyGatos2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.PerrosyGatos2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PerrosyGatos2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PerrosyGatos2 figure .contenidoPerrosyGatos2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PerrosyGatos2 figure:hover > .contenidoPerrosyGatos2{
+    opacity: 1;
+    visibility: visible;
+}
+.PerrosyGatos2 figure:hover > .contenidoPerrosyGatos2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PerrosyGatos2 figure:hover > .contenidoPerrosyGatos2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Como Perros Y Gatos 3*/
+.PerrosyGatos3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.PerrosyGatos3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PerrosyGatos3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PerrosyGatos3 figure .contenidoPerrosyGatos3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PerrosyGatos3 figure:hover > .contenidoPerrosyGatos3{
+    opacity: 1;
+    visibility: visible;
+}
+.PerrosyGatos3 figure:hover > .contenidoPerrosyGatos3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PerrosyGatos3 figure:hover > .contenidoPerrosyGatos3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* ReadyPlayerOne */
+.ReadyPlayerOne{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.ReadyPlayerOne figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ReadyPlayerOne figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ReadyPlayerOne figure .contenidoReadyPlayerOne{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne{
+    opacity: 1;
+    visibility: visible;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ReadyPlayerOne figure:hover > .contenidoReadyPlayerOne p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* STAR WARS 7 */
+.StarWars7{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 75px;
+}
+.StarWars7 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.StarWars7 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.StarWars7 figure .contenidoStarWars7{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.StarWars7 figure:hover > .contenidoStarWars7{
+    opacity: 1;
+    visibility: visible;
+}
+.StarWars7 figure:hover > .contenidoStarWars7 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.StarWars7 figure:hover > .contenidoStarWars7 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* HAN SOLO */
+.HanSolo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1264px;
+    left: 75px;
+}
+.HanSolo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HanSolo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HanSolo figure .contenidoHanSolo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HanSolo figure:hover > .contenidoHanSolo{
+    opacity: 1;
+    visibility: visible;
+}
+.HanSolo figure:hover > .contenidoHanSolo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HanSolo figure:hover > .contenidoHanSolo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+
+/* Back To the future */
+
+.RegresoFuturo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 170px;
+    left: 505px;
+    
+}
+.RegresoFuturo figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.RegresoFuturo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RegresoFuturo figure .contenidoRegresoFuturo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RegresoFuturo figure:hover > .contenidoRegresoFuturo{
+    opacity: 1;
+    visibility: visible;
+}
+.RegresoFuturo figure:hover > .contenidoRegresoFuturo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RegresoFuturo figure:hover > .contenidoRegresoFuturo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Back To the future 2 */
+
+.RegresoFuturo2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+    
+}
+.RegresoFuturo2 figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.RegresoFuturo2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RegresoFuturo2 figure .contenidoRegresoFuturo2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RegresoFuturo2 figure:hover > .contenidoRegresoFuturo2{
+    opacity: 1;
+    visibility: visible;
+}
+.RegresoFuturo2 figure:hover > .contenidoRegresoFuturo2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RegresoFuturo2 figure:hover > .contenidoRegresoFuturo2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Back To the future 3 */
+
+.RegresoFuturo3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+    
+}
+.RegresoFuturo3 figure{
+
+    position:relative;
+     height: 250px;
+      width: 350px;
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.RegresoFuturo3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RegresoFuturo3 figure .contenidoRegresoFuturo3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RegresoFuturo3 figure:hover > .contenidoRegresoFuturo3{
+    opacity: 1;
+    visibility: visible;
+}
+.RegresoFuturo3 figure:hover > .contenidoRegresoFuturo3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RegresoFuturo3 figure:hover > .contenidoRegresoFuturo3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* STAR WARS 1 */
+
+.StarWars1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 505px;
+    
+}
+.StarWars1 figure{
+
+    position:relative;
+     height: 250px;
+      width: 350px;
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.StarWars1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.StarWars1 figure .contenidoStarWars1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.StarWars1 figure:hover > .contenidoStarWars1{
+    opacity: 1;
+    visibility: visible;
+}
+.StarWars1 figure:hover > .contenidoStarWars1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.StarWars1 figure:hover > .contenidoStarWars1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* STAR WARS 8 */
+.StarWars8{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 505px;
+}
+.StarWars8 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.StarWars8 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.StarWars8 figure .contenidoStarWars8{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.StarWars8 figure:hover > .contenidoStarWars8{
+    opacity: 1;
+    visibility: visible;
+}
+.StarWars8 figure:hover > .contenidoStarWars8 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.StarWars8 figure:hover > .contenidoStarWars8 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* ROGUE ONE */
+
+.RogueOne{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1264px;
+    left: 505px;
+}
+.RogueOne figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RogueOne figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RogueOne figure .contenidoRogueOne{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RogueOne figure:hover > .contenidoRogueOne{
+    opacity: 1;
+    visibility: visible;
+}
+.RogueOne figure:hover > .contenidoRogueOne h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RogueOne figure:hover > .contenidoRogueOne p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------TERCERA FILA/LINEA-------------------------*/
+
+/* TERROR BAJO LA TIERRA 2 */
+.StarWars2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 935px;
+}
+.StarWars2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.StarWars2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.StarWars2 figure .contenidoStarWars2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.StarWars2 figure:hover > .contenidoStarWars2{
+    opacity: 1;
+    visibility: visible;
+}
+.StarWars2 figure:hover > .contenidoStarWars2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.StarWars2 figure:hover > .contenidoStarWars2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* STAR WARS 3*/
+.StarWars3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 935px;
+}
+.StarWars3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.StarWars3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.StarWars3 figure .contenidoStarWars3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.StarWars3 figure:hover > .contenidoStarWars3{
+    opacity: 1;
+    visibility: visible;
+}
+.StarWars3 figure:hover > .contenidoStarWars3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.StarWars3 figure:hover > .contenidoStarWars3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* STAR WARS 4 */
+.StarWars4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 935px;
+}
+.StarWars4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.StarWars4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.StarWars4 figure .contenidoStarWars4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.StarWars4 figure:hover > .contenidoStarWars4{
+    opacity: 1;
+    visibility: visible;
+}
+.StarWars4 figure:hover > .contenidoStarWars4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.StarWars4 figure:hover > .contenidoStarWars4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* STAR WARS 5 */
+.StarWars5{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 935px;
+}
+.StarWars5 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.StarWars5 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.StarWars5 figure .contenidoStarWars5{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.StarWars5 figure:hover > .contenidoStarWars5{
+    opacity: 1;
+    visibility: visible;
+}
+.StarWars5 figure:hover > .contenidoStarWars5 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.StarWars5 figure:hover > .contenidoStarWars5 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* STAR WARS 9 */
+.StarWars9{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 935px;
+}
+.StarWars9 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.StarWars9 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.StarWars9 figure .contenidoStarWars9{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.StarWars9 figure:hover > .contenidoStarWars9{
+    opacity: 1;
+    visibility: visible;
+}
+.StarWars9 figure:hover > .contenidoStarWars9 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.StarWars9 figure:hover > .contenidoStarWars9 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Efecto mariposa */
+.EfectoMariposa{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 935px;
+}
+.EfectoMariposa figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.EfectoMariposa figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.EfectoMariposa figure .contenidoEfectoMariposa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.EfectoMariposa figure:hover > .contenidoEfectoMariposa{
+    opacity: 1;
+    visibility: visible;
+}
+.EfectoMariposa figure:hover > .contenidoEfectoMariposa h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.EfectoMariposa figure:hover > .contenidoEfectoMariposa p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

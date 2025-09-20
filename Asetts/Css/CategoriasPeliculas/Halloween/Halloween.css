@@ -1,0 +1,2423 @@
+
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 600px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+/*-------------------------PRIMERA FILA/LINEA-------------------------*/
+
+/* Aracnofobia */
+.Aracnofobia{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.Aracnofobia figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Aracnofobia figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Aracnofobia figure .contenidoAracnofobia{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Aracnofobia figure:hover > .contenidoAracnofobia{
+    opacity: 1;
+    visibility: visible;
+}
+.Aracnofobia figure:hover > .contenidoAracnofobia h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Aracnofobia figure:hover > .contenidoAracnofobia p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* AtrapadaSotano*/
+.AtrapadaSotano{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.AtrapadaSotano figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AtrapadaSotano figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AtrapadaSotano figure .contenidoAtrapadaSotano{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AtrapadaSotano figure:hover > .contenidoAtrapadaSotano{
+    opacity: 1;
+    visibility: visible;
+}
+.AtrapadaSotano figure:hover > .contenidoAtrapadaSotano h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AtrapadaSotano figure:hover > .contenidoAtrapadaSotano p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* casper*/
+.casper{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.casper figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.casper figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.casper figure .contenidocasper{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.casper figure:hover > .contenidocasper{
+    opacity: 1;
+    visibility: visible;
+}
+.casper figure:hover > .contenidocasper h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.casper figure:hover > .contenidocasper p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* Fivenihgts */
+.FiveNights{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.FiveNights figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.FiveNights figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.FiveNights figure .contenidoFiveNights{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.FiveNights figure:hover > .contenidoFiveNights{
+    opacity: 1;
+    visibility: visible;
+}
+.FiveNights figure:hover > .contenidoFiveNights h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.FiveNights figure:hover > .contenidoFiveNights p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Estacion Zombie */
+.EstacionZombie{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 75px;
+}
+.EstacionZombie figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.EstacionZombie figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.EstacionZombie figure .contenidoEstacionZombie{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.EstacionZombie figure:hover > .contenidoEstacionZombie{
+    opacity: 1;
+    visibility: visible;
+}
+.EstacionZombie figure:hover > .contenidoEstacionZombie h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.EstacionZombie figure:hover > .contenidoEstacionZombie p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Chucky 1 */
+.Chucky{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 75px;
+}
+.Chucky figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Chucky figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Chucky figure .contenidoChucky1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Chucky figure:hover > .contenidoChucky1{
+    opacity: 1;
+    visibility: visible;
+}
+.Chucky figure:hover > .contenidoChucky1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Chucky figure:hover > .contenidoChucky1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Chucky4 */
+.Chucky4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1554px;
+    left: 75px;
+}
+.Chucky4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Chucky4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Chucky4 figure .contenidoChucky4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Chucky4 figure:hover > .contenidoChucky4{
+    opacity: 1;
+    visibility: visible;
+}
+.Chucky4 figure:hover > .contenidoChucky4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Chucky4 figure:hover > .contenidoChucky4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Chucky7 */
+.Chucky7{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1842px;
+    left: 75px;
+}
+.Chucky7 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Chucky7 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Chucky7 figure .contenidoChucky7{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Chucky7 figure:hover > .contenidoChucky7{
+    opacity: 1;
+    visibility: visible;
+}
+.Chucky7 figure:hover > .contenidoChucky7 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Chucky7 figure:hover > .contenidoChucky7 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-2 */
+.Viernes13-2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2130px;
+    left: 75px;
+}
+.Viernes13-2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-2 figure .contenidoViernes13-2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-2 figure:hover > .contenidoViernes13-2{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-2 figure:hover > .contenidoViernes13-2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-2 figure:hover > .contenidoViernes13-2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-5 */
+.Viernes13-5{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2418px;
+    left: 75px;
+}
+.Viernes13-5 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-5 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-5 figure .contenidoViernes13-5{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-5 figure:hover > .contenidoViernes13-5{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-5 figure:hover > .contenidoViernes13-5 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-5 figure:hover > .contenidoViernes13-5 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-8 */
+.Viernes13-8{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2706px;
+    left: 75px;
+}
+.Viernes13-8 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-8 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-8 figure .contenidoViernes13-8{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-8 figure:hover > .contenidoViernes13-8{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-8 figure:hover > .contenidoViernes13-8 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-8 figure:hover > .contenidoViernes13-8 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* DestinoFinal */
+.DestinoFinal{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 75px;
+}
+.DestinoFinal figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.DestinoFinal figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.DestinoFinal figure .contenidoDestinoFinal{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.DestinoFinal figure:hover > .contenidoDestinoFinal{
+    opacity: 1;
+    visibility: visible;
+}
+.DestinoFinal figure:hover > .contenidoDestinoFinal h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.DestinoFinal figure:hover > .contenidoDestinoFinal p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* DestinoFinal4 */
+.DestinoFinal4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3282px;
+    left: 75px;
+}
+.DestinoFinal4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.DestinoFinal4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.DestinoFinal4 figure .contenidoDestinoFinal4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.DestinoFinal4 figure:hover > .contenidoDestinoFinal4{
+    opacity: 1;
+    visibility: visible;
+}
+.DestinoFinal4 figure:hover > .contenidoDestinoFinal4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.DestinoFinal4 figure:hover > .contenidoDestinoFinal4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Háblame */
+.Háblame{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3570px;
+    left: 75px;
+}
+.Háblame figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Háblame figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Háblame figure .contenidoHáblame{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Háblame figure:hover > .contenidoHáblame{
+    opacity: 1;
+    visibility: visible;
+}
+.Háblame figure:hover > .contenidoHáblame h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Háblame figure:hover > .contenidoHáblame p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Annabelle2 */
+.Annabelle2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3858px;
+    left: 75px;
+}
+.Annabelle2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Annabelle2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Annabelle2 figure .contenidoAnnabelle2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Annabelle2 figure:hover > .contenidoAnnabelle2{
+    opacity: 1;
+    visibility: visible;
+}
+.Annabelle2 figure:hover > .contenidoAnnabelle2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Annabelle2 figure:hover > .contenidoAnnabelle2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* ElConjuro2 */
+.ElConjuro2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -4146px;
+    left: 75px;
+}
+.ElConjuro2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ElConjuro2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ElConjuro2 figure .contenidoElConjuro2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ElConjuro2 figure:hover > .contenidoElConjuro2{
+    opacity: 1;
+    visibility: visible;
+}
+.ElConjuro2 figure:hover > .contenidoElConjuro2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ElConjuro2 figure:hover > .contenidoElConjuro2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+
+/* halloween*/
+.halloween{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 170px;
+    left: 505px;
+}
+.halloween figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.halloween figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.halloween figure .contenidohalloween{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.halloween figure:hover > .contenidohalloween{
+    opacity: 1;
+    visibility: visible;
+}
+.halloween figure:hover > .contenidohalloween h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.halloween figure:hover > .contenidohalloween p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* puertaroja */
+.puertaroja{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+}
+.puertaroja figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.puertaroja figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.puertaroja figure .contenidopuertaroja{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.puertaroja figure:hover > .contenidopuertaroja{
+    opacity: 1;
+    visibility: visible;
+}
+.puertaroja figure:hover > .contenidopuertaroja h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.puertaroja figure:hover > .contenidopuertaroja p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* Scarymovie */
+
+.Scarymovie{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+    
+}
+.Scarymovie figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.Scarymovie figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Scarymovie figure .contenidoScarymovie{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Scarymovie figure:hover > .contenidoScarymovie{
+    opacity: 1;
+    visibility: visible;
+}
+.Scarymovie figure:hover > .contenidoScarymovie h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Scarymovie figure:hover > .contenidoScarymovie p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* TerrorBajoTierra */
+
+.TerrorBajoTierra{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 505px;
+    
+}
+.TerrorBajoTierra figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.TerrorBajoTierra figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TerrorBajoTierra figure .contenidoTerrorBajoTierra{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TerrorBajoTierra figure:hover > .contenidoTerrorBajoTierra{
+    opacity: 1;
+    visibility: visible;
+}
+.TerrorBajoTierra figure:hover > .contenidoTerrorBajoTierra h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TerrorBajoTierra figure:hover > .contenidoTerrorBajoTierra p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* CazaFantasmas */
+.CazaFantasmas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 505px;
+}
+.CazaFantasmas figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CazaFantasmas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CazaFantasmas figure .contenidoCazaFantasmas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CazaFantasmas figure:hover > .contenidoCazaFantasmas{
+    opacity: 1;
+    visibility: visible;
+}
+.CazaFantasmas figure:hover > .contenidoCazaFantasmas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CazaFantasmas figure:hover > .contenidoCazaFantasmas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Chucky2 */
+.Chucky2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 505px;
+}
+.Chucky2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Chucky2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Chucky2 figure .contenidoChucky2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Chucky2 figure:hover > .contenidoChucky2{
+    opacity: 1;
+    visibility: visible;
+}
+.Chucky2 figure:hover > .contenidoChucky2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Chucky2 figure:hover > .contenidoChucky2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Chucky5 */
+.Chucky5{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1554px;
+    left: 505px;
+}
+.Chucky5 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Chucky5 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Chucky5 figure .contenidoChucky5{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Chucky5 figure:hover > .contenidoChucky5{
+    opacity: 1;
+    visibility: visible;
+}
+.Chucky5 figure:hover > .contenidoChucky5 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Chucky5 figure:hover > .contenidoChucky5 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Chucky8 */
+.Chucky8{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1842px;
+    left: 505px;
+}
+.Chucky8 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Chucky8 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Chucky8 figure .contenidoChucky8{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Chucky8 figure:hover > .contenidoChucky8{
+    opacity: 1;
+    visibility: visible;
+}
+.Chucky8 figure:hover > .contenidoChucky8 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Chucky8 figure:hover > .contenidoChucky8 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-3 */
+.Viernes13-3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2130px;
+    left: 505px;
+}
+.Viernes13-3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-3 figure .contenidoViernes13-3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-3 figure:hover > .contenidoViernes13-3{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-3 figure:hover > .contenidoViernes13-3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-3 figure:hover > .contenidoViernes13-3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-6 */
+.Viernes13-6{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2418px;
+    left: 505px;
+}
+.Viernes13-6 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-6 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-6 figure .contenidoViernes13-6{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-6 figure:hover > .contenidoViernes13-6{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-6 figure:hover > .contenidoViernes13-6 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-6 figure:hover > .contenidoViernes13-6 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-9 */
+.Viernes13-9{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2706px;
+    left: 505px;
+}
+.Viernes13-9 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-9 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-9 figure .contenidoViernes13-9{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-9 figure:hover > .contenidoViernes13-9{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-9 figure:hover > .contenidoViernes13-9 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-9 figure:hover > .contenidoViernes13-9 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* DestinoFinal2 */
+.DestinoFinal2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 505px;
+}
+.DestinoFinal2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.DestinoFinal2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.DestinoFinal2 figure .contenidoDestinoFinal2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.DestinoFinal2 figure:hover > .contenidoDestinoFinal2{
+    opacity: 1;
+    visibility: visible;
+}
+.DestinoFinal2 figure:hover > .contenidoDestinoFinal2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.DestinoFinal2 figure:hover > .contenidoDestinoFinal2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Parásitos */
+.Parásitos{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3282px;
+    left: 505px;
+}
+.Parásitos figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Parásitos figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Parásitos figure .contenidoParásitos{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Parásitos figure:hover > .contenidoParásitos{
+    opacity: 1;
+    visibility: visible;
+}
+.Parásitos figure:hover > .contenidoParásitos h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Parásitos figure:hover > .contenidoParásitos p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Huerfana */
+.Huerfana{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3570px;
+    left: 505px;
+}
+.Huerfana figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Huerfana figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Huerfana figure .contenidoHuerfana{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Huerfana figure:hover > .contenidoHuerfana{
+    opacity: 1;
+    visibility: visible;
+}
+.Huerfana figure:hover > .contenidoHuerfana h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Huerfana figure:hover > .contenidoHuerfana p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Annabelle3 */
+.Annabelle3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3858px;
+    left: 505px;
+}
+.Annabelle3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Annabelle3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Annabelle3 figure .contenidoAnnabelle3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Annabelle3 figure:hover > .contenidoAnnabelle3{
+    opacity: 1;
+    visibility: visible;
+}
+.Annabelle3 figure:hover > .contenidoAnnabelle3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Annabelle3 figure:hover > .contenidoAnnabelle3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* ElConjuro3 */
+.ElConjuro3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -4146px;
+    left: 505px;
+}
+.ElConjuro3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ElConjuro3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ElConjuro3 figure .contenidoElConjuro3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ElConjuro3 figure:hover > .contenidoElConjuro3{
+    opacity: 1;
+    visibility: visible;
+}
+.ElConjuro3 figure:hover > .contenidoElConjuro3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ElConjuro3 figure:hover > .contenidoElConjuro3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*-------------------------TERCERA FILA/LINEA-------------------------*/
+
+/* TERROR BAJO LA TIERRA 2 */
+.TerrorBajoTierra2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 935px;
+}
+.TerrorBajoTierra2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.TerrorBajoTierra2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TerrorBajoTierra2 figure .contenidoTerrorBajoTierra2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TerrorBajoTierra2 figure:hover > .contenidoTerrorBajoTierra2{
+    opacity: 1;
+    visibility: visible;
+}
+.TerrorBajoTierra2 figure:hover > .contenidoTerrorBajoTierra2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TerrorBajoTierra2 figure:hover > .contenidoTerrorBajoTierra2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* TERROR BAJO LA TIERRA 3*/
+.TerrorBajoTierra3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 935px;
+}
+.TerrorBajoTierra3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.TerrorBajoTierra3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TerrorBajoTierra3 figure .contenidoTerrorBajoTierra3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TerrorBajoTierra3 figure:hover > .contenidoTerrorBajoTierra3{
+    opacity: 1;
+    visibility: visible;
+}
+.TerrorBajoTierra3 figure:hover > .contenidoTerrorBajoTierra3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TerrorBajoTierra3 figure:hover > .contenidoTerrorBajoTierra3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* TERROR BAJO LA TIERRA 4 */
+.TerrorBajoTierra4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 935px;
+}
+.TerrorBajoTierra4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.TerrorBajoTierra4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TerrorBajoTierra4 figure .contenidoTerrorBajoTierra4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TerrorBajoTierra4 figure:hover > .contenidoTerrorBajoTierra4{
+    opacity: 1;
+    visibility: visible;
+}
+.TerrorBajoTierra4 figure:hover > .contenidoTerrorBajoTierra4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TerrorBajoTierra4 figure:hover > .contenidoTerrorBajoTierra4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* TERROR BAJO LA TIERRA 5 */
+.TerrorBajoTierra5{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 935px;
+}
+.TerrorBajoTierra5 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.TerrorBajoTierra5 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TerrorBajoTierra5 figure .contenidoTerrorBajoTierra5{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TerrorBajoTierra5 figure:hover > .contenidoTerrorBajoTierra5{
+    opacity: 1;
+    visibility: visible;
+}
+.TerrorBajoTierra5 figure:hover > .contenidoTerrorBajoTierra5 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TerrorBajoTierra5 figure:hover > .contenidoTerrorBajoTierra5 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* TERROR BAJO LA TIERRA */
+.TerrorBajoTierra6{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 935px;
+}
+.TerrorBajoTierra6 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.TerrorBajoTierra6 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TerrorBajoTierra6 figure .contenidoTerrorBajoTierra6{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TerrorBajoTierra6 figure:hover > .contenidoTerrorBajoTierra6{
+    opacity: 1;
+    visibility: visible;
+}
+.TerrorBajoTierra6 figure:hover > .contenidoTerrorBajoTierra6 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TerrorBajoTierra6 figure:hover > .contenidoTerrorBajoTierra6 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Chucky3 */
+.Chucky3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 935px;
+}
+.Chucky3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Chucky3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Chucky3 figure .contenidoChucky3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Chucky3 figure:hover > .contenidoChucky3{
+    opacity: 1;
+    visibility: visible;
+}
+.Chucky3 figure:hover > .contenidoChucky3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Chucky3 figure:hover > .contenidoChucky3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Chucky6 */
+.Chucky6{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1544px;
+    left: 935px;
+}
+.Chucky6 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Chucky6 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Chucky6 figure .contenidoChucky6{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Chucky6 figure:hover > .contenidoChucky6{
+    opacity: 1;
+    visibility: visible;
+}
+.Chucky6 figure:hover > .contenidoChucky6 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Chucky6 figure:hover > .contenidoChucky6 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-1 */
+.Viernes13-1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1842px;
+    left: 935px;
+}
+.Viernes13-1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-1 figure .contenidoViernes13-1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-1 figure:hover > .contenidoViernes13-1{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-1 figure:hover > .contenidoViernes13-1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-1 figure:hover > .contenidoViernes13-1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-4 */
+.Viernes13-4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2130px;
+    left: 935px;
+}
+.Viernes13-4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-4 figure .contenidoViernes13-4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-4 figure:hover > .contenidoViernes13-4{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-4 figure:hover > .contenidoViernes13-4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-4 figure:hover > .contenidoViernes13-4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-7 */
+.Viernes13-7{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2418px;
+    left: 935px;
+}
+.Viernes13-7 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-7 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-7 figure .contenidoViernes13-7{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-7 figure:hover > .contenidoViernes13-7{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-7 figure:hover > .contenidoViernes13-7 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-7 figure:hover > .contenidoViernes13-7 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Viernes13-10 */
+.Viernes13-10{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2706px;
+    left: 935px;
+}
+.Viernes13-10 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Viernes13-10 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Viernes13-10 figure .contenidoViernes13-10{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Viernes13-10 figure:hover > .contenidoViernes13-10{
+    opacity: 1;
+    visibility: visible;
+}
+.Viernes13-10 figure:hover > .contenidoViernes13-10 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Viernes13-10 figure:hover > .contenidoViernes13-10 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* DestinoFinal3 */
+.DestinoFinal3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 935px;
+}
+.DestinoFinal3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.DestinoFinal3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.DestinoFinal3 figure .contenidoDestinoFinal3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.DestinoFinal3 figure:hover > .contenidoDestinoFinal3{
+    opacity: 1;
+    visibility: visible;
+}
+.DestinoFinal3 figure:hover > .contenidoDestinoFinal3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.DestinoFinal3 figure:hover > .contenidoDestinoFinal3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Identidad */
+.Identidad{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3282px;
+    left: 935px;
+}
+.Identidad figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Identidad figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Identidad figure .contenidoIdentidad{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Identidad figure:hover > .contenidoIdentidad{
+    opacity: 1;
+    visibility: visible;
+}
+.Identidad figure:hover > .contenidoIdentidad h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Identidad figure:hover > .contenidoIdentidad p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Annabelle */
+.Annabelle{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3570px;
+    left: 935px;
+}
+.Annabelle figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Annabelle figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Annabelle figure .contenidoAnnabelle{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Annabelle figure:hover > .contenidoAnnabelle{
+    opacity: 1;
+    visibility: visible;
+}
+.Annabelle figure:hover > .contenidoAnnabelle h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Annabelle figure:hover > .contenidoAnnabelle p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* ElConjuro */
+.ElConjuro{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3858px;
+    left: 935px;
+}
+.ElConjuro figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ElConjuro figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ElConjuro figure .contenidoElConjuro{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ElConjuro figure:hover > .contenidoElConjuro{
+    opacity: 1;
+    visibility: visible;
+}
+.ElConjuro figure:hover > .contenidoElConjuro h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ElConjuro figure:hover > .contenidoElConjuro p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}

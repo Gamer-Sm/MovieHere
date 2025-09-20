@@ -1,0 +1,2035 @@
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 580px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+/*-------------------------PRIMERA FILA/LINEA-------------------------*/
+
+/* CHARLIE Y LA FABRICA DE CHOCOLATES */
+.CharlieFabricaChocolates{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.CharlieFabricaChocolates figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CharlieFabricaChocolates figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CharlieFabricaChocolates figure .contenidoCharlieFabricaChocolates{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CharlieFabricaChocolates figure:hover > .contenidoCharlieFabricaChocolates{
+    opacity: 1;
+    visibility: visible;
+}
+.CharlieFabricaChocolates figure:hover > .contenidoCharlieFabricaChocolates h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CharlieFabricaChocolates figure:hover > .contenidoCharlieFabricaChocolates p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* MATILDA*/
+.Matilda{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.Matilda figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Matilda figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Matilda figure .contenidoMatilda{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Matilda figure:hover > .contenidoMatilda{
+    opacity: 1;
+    visibility: visible;
+}
+.Matilda figure:hover > .contenidoMatilda h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Matilda figure:hover > .contenidoMatilda p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* PinocchioGuillermo*/
+.PinocchioGuillermo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.PinocchioGuillermo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PinocchioGuillermo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PinocchioGuillermo figure .contenidoPinocchioGuillermo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PinocchioGuillermo figure:hover > .contenidoPinocchioGuillermo{
+    opacity: 1;
+    visibility: visible;
+}
+.PinocchioGuillermo figure:hover > .contenidoPinocchioGuillermo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PinocchioGuillermo figure:hover > .contenidoPinocchioGuillermo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* SpaceJam */
+.SpaceJam{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.SpaceJam figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.SpaceJam figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.SpaceJam figure .contenidoSpaceJam{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.SpaceJam figure:hover > .contenidoSpaceJam{
+    opacity: 1;
+    visibility: visible;
+}
+.SpaceJam figure:hover > .contenidoSpaceJam h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.SpaceJam figure:hover > .contenidoSpaceJam p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Las Cronicas de Narnia */
+.CronicasNarnia1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -977px;
+    left: 75px;
+}
+.CronicasNarnia1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CronicasNarnia1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CronicasNarnia1 figure .contenidoCronicasNarnia1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CronicasNarnia1 figure:hover > .contenidoCronicasNarnia1{
+    opacity: 1;
+    visibility: visible;
+}
+.CronicasNarnia1 figure:hover > .contenidoCronicasNarnia1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CronicasNarnia1 figure:hover > .contenidoCronicasNarnia1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Las Cronicas de Narnia 2 */
+.CronicasNarnia2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 75px;
+}
+.CronicasNarnia2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CronicasNarnia2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CronicasNarnia2 figure .contenidoCronicasNarnia2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CronicasNarnia2 figure:hover > .contenidoCronicasNarnia2{
+    opacity: 1;
+    visibility: visible;
+}
+.CronicasNarnia2 figure:hover > .contenidoCronicasNarnia2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CronicasNarnia2 figure:hover > .contenidoCronicasNarnia2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Las Cronicas de Narnia 3 */
+.CronicasNarnia3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 75px;
+}
+.CronicasNarnia3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CronicasNarnia3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CronicasNarnia3 figure .contenidoCronicasNarnia3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CronicasNarnia3 figure:hover > .contenidoCronicasNarnia3{
+    opacity: 1;
+    visibility: visible;
+}
+.CronicasNarnia3 figure:hover > .contenidoCronicasNarnia3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CronicasNarnia3 figure:hover > .contenidoCronicasNarnia3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* LaMomia1 */
+.LaMomia1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 75px;
+}
+.LaMomia1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LaMomia1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LaMomia1 figure .contenidoLaMomia1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LaMomia1 figure:hover > .contenidoLaMomia1{
+    opacity: 1;
+    visibility: visible;
+}
+.LaMomia1 figure:hover > .contenidoLaMomia1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LaMomia1 figure:hover > .contenidoLaMomia1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* LaMomia2 */
+.LaMomia2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 75px;
+}
+.LaMomia2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LaMomia2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LaMomia2 figure .contenidoLaMomia2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LaMomia2 figure:hover > .contenidoLaMomia2{
+    opacity: 1;
+    visibility: visible;
+}
+.LaMomia2 figure:hover > .contenidoLaMomia2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LaMomia2 figure:hover > .contenidoLaMomia2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* LaMomia3 */
+.LaMomia3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2421px;
+    left: 75px;
+}
+.LaMomia3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LaMomia3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LaMomia3 figure .contenidoLaMomia3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LaMomia3 figure:hover > .contenidoLaMomia3{
+    opacity: 1;
+    visibility: visible;
+}
+.LaMomia3 figure:hover > .contenidoLaMomia3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LaMomia3 figure:hover > .contenidoLaMomia3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* La Dama y el Vagabundo */
+.Jumanji1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2707px;
+    left: 75px;
+}
+.Jumanji1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Jumanji1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Jumanji1 figure .contenidoJumanji1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Jumanji1 figure:hover > .contenidoJumanji1{
+    opacity: 1;
+    visibility: visible;
+}
+.Jumanji1 figure:hover > .contenidoJumanji1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Jumanji1 figure:hover > .contenidoJumanji1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Jumanji2 */
+.Jumanji2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 75px;
+}
+.Jumanji2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Jumanji2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Jumanji2 figure .contenidoJumanji2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Jumanji2 figure:hover > .contenidoJumanji2{
+    opacity: 1;
+    visibility: visible;
+}
+.Jumanji2 figure:hover > .contenidoJumanji2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Jumanji2 figure:hover > .contenidoJumanji2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Alicia1 */
+.Jumanji3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3280px;
+    left: 75px;
+}
+.Jumanji3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Jumanji3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Jumanji3 figure .contenidoJumanji3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Jumanji3 figure:hover > .contenidoJumanji3{
+    opacity: 1;
+    visibility: visible;
+}
+.Jumanji3 figure:hover > .contenidoJumanji3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Jumanji3 figure:hover > .contenidoJumanji3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* Alicia2 */
+.CurvasVida{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3568px;
+    left: 75px;
+}
+.CurvasVida figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.CurvasVida figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.CurvasVida figure .contenidoCurvasVida{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.CurvasVida figure:hover > .contenidoCurvasVida{
+    opacity: 1;
+    visibility: visible;
+}
+.CurvasVida figure:hover > .contenidoCurvasVida h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.CurvasVida figure:hover > .contenidoCurvasVida p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+
+/* SpaceJam2*/
+.SpaceJam2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 170px;
+    left: 505px;
+}
+.SpaceJam2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.SpaceJam2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.SpaceJam2 figure .contenidoSpaceJam2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.SpaceJam2 figure:hover > .contenidoSpaceJam2{
+    opacity: 1;
+    visibility: visible;
+}
+.SpaceJam2 figure:hover > .contenidoSpaceJam2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.SpaceJam2 figure:hover > .contenidoSpaceJam2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* HARRY POTTER Y LA PIEDRA FILOSOFAL*/
+.HarryPotter1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+}
+.HarryPotter1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HarryPotter1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HarryPotter1 figure .contenidoHarryPotter1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HarryPotter1 figure:hover > .contenidoHarryPotter1{
+    opacity: 1;
+    visibility: visible;
+}
+.HarryPotter1 figure:hover > .contenidoHarryPotter1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HarryPotter1 figure:hover > .contenidoHarryPotter1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* HARRY POTTER Y LA CAMARA SECRETA*/
+.HarryPotter2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+}
+.HarryPotter2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HarryPotter2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HarryPotter2 figure .contenidoHarryPotter2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HarryPotter2 figure:hover > .contenidoHarryPotter2{
+    opacity: 1;
+    visibility: visible;
+}
+.HarryPotter2 figure:hover > .contenidoHarryPotter2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HarryPotter2 figure:hover > .contenidoHarryPotter2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Harry Potter 3 */
+.HarryPotter3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 505px;
+}
+.HarryPotter3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HarryPotter3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HarryPotter3 figure .contenidoHarryPotter3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HarryPotter3 figure:hover > .contenidoHarryPotter3{
+    opacity: 1;
+    visibility: visible;
+}
+.HarryPotter3 figure:hover > .contenidoHarryPotter3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HarryPotter3 figure:hover > .contenidoHarryPotter3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Wonka */
+.Wonka{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -977px;
+    left: 505px;
+}
+.Wonka figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Wonka figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Wonka figure .contenidoWonka{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Wonka figure:hover > .contenidoWonka{
+    opacity: 1;
+    visibility: visible;
+}
+.Wonka figure:hover > .contenidoWonka h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Wonka figure:hover > .contenidoWonka p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*LeyendaTesoroPerdido1*/
+.LeyendaTesoroPerdido1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 500px;
+}
+.LeyendaTesoroPerdido1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LeyendaTesoroPerdido1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LeyendaTesoroPerdido1 figure .contenidoLeyendaTesoroPerdido1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LeyendaTesoroPerdido1 figure:hover > .contenidoLeyendaTesoroPerdido1{
+    opacity: 1;
+    visibility: visible;
+}
+.LeyendaTesoroPerdido1 figure:hover > .contenidoLeyendaTesoroPerdido1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LeyendaTesoroPerdido1 figure:hover > .contenidoLeyendaTesoroPerdido1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* LeyendaTesoroPerdido2 */
+.LeyendaTesoroPerdido2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 500px;
+}
+.LeyendaTesoroPerdido2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LeyendaTesoroPerdido2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LeyendaTesoroPerdido2 figure .contenidoLeyendaTesoroPerdido2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LeyendaTesoroPerdido2 figure:hover > .contenidoLeyendaTesoroPerdido2{
+    opacity: 1;
+    visibility: visible;
+}
+.LeyendaTesoroPerdido2 figure:hover > .contenidoLeyendaTesoroPerdido2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LeyendaTesoroPerdido2 figure:hover > .contenidoLeyendaTesoroPerdido2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* El Señor de los Anillos1 */
+.SeñorAnillos1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 500px;
+}
+.SeñorAnillos1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.SeñorAnillos1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.SeñorAnillos1 figure .contenidoSeñorAnillos1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.SeñorAnillos1 figure:hover > .contenidoSeñorAnillos1{
+    opacity: 1;
+    visibility: visible;
+}
+.SeñorAnillos1 figure:hover > .contenidoSeñorAnillos1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.SeñorAnillos1 figure:hover > .contenidoSeñorAnillos1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* El Señor de los Anillos2 */
+.SeñorAnillos2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 500px;
+}
+.SeñorAnillos2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.SeñorAnillos2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.SeñorAnillos2 figure .contenidoSeñorAnillos2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.SeñorAnillos2 figure:hover > .contenidoSeñorAnillos2{
+    opacity: 1;
+    visibility: visible;
+}
+.SeñorAnillos2 figure:hover > .contenidoSeñorAnillos2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.SeñorAnillos2 figure:hover > .contenidoSeñorAnillos2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* El Señor de los Anillos3 */
+.SeñorAnillos3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2421px;
+    left: 500px;
+}
+.SeñorAnillos3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.SeñorAnillos3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.SeñorAnillos3 figure .contenidoSeñorAnillos3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.SeñorAnillos3 figure:hover > .contenidoSeñorAnillos3{
+    opacity: 1;
+    visibility: visible;
+}
+.SeñorAnillos3 figure:hover > .contenidoSeñorAnillos3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.SeñorAnillos3 figure:hover > .contenidoSeñorAnillos3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Film127Horas*/
+.Film127Horas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2707px;
+    left: 500px;
+}
+.Film127Horas figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Film127Horas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Film127Horas figure .contenidoFilm127Horas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Film127Horas figure:hover > .contenidoFilm127Horas{
+    opacity: 1;
+    visibility: visible;
+}
+.Film127Horas figure:hover > .contenidoFilm127Horas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Film127Horas figure:hover > .contenidoFilm127Horas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*TesoroAmazonas*/
+.TesoroAmazonas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 500px;
+}
+.TesoroAmazonas figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.TesoroAmazonas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.TesoroAmazonas figure .contenidoTesoroAmazonas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.TesoroAmazonas figure:hover > .contenidoTesoroAmazonas{
+    opacity: 1;
+    visibility: visible;
+}
+.TesoroAmazonas figure:hover > .contenidoTesoroAmazonas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.TesoroAmazonas figure:hover > .contenidoTesoroAmazonas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*SecretoCalabazaMagica*/
+.SecretoCalabazaMagica{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3280px;
+    left: 500px;
+}
+.SecretoCalabazaMagica figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.SecretoCalabazaMagica figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.SecretoCalabazaMagica figure .contenidoSecretoCalabazaMagica{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.SecretoCalabazaMagica figure:hover > .contenidoSecretoCalabazaMagica{
+    opacity: 1;
+    visibility: visible;
+}
+.SecretoCalabazaMagica figure:hover > .contenidoSecretoCalabazaMagica h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.SecretoCalabazaMagica figure:hover > .contenidoSecretoCalabazaMagica p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*-------------------------TERCERA FILA/LINEA-------------------------*/
+/* Harry Potter 4 */
+.HarryPotter4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 935px;
+}
+.HarryPotter4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HarryPotter4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HarryPotter4 figure .contenidoHarryPotter4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HarryPotter4 figure:hover > .contenidoHarryPotter4{
+    opacity: 1;
+    visibility: visible;
+}
+.HarryPotter4 figure:hover > .contenidoHarryPotter4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HarryPotter4 figure:hover > .contenidoHarryPotter4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* HARRY POTTER 5 */
+.HarryPotter5{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 935px;
+}
+.HarryPotter5 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HarryPotter5 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HarryPotter5 figure .contenidoHarryPotter5{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HarryPotter5 figure:hover > .contenidoHarryPotter5{
+    opacity: 1;
+    visibility: visible;
+}
+.HarryPotter5 figure:hover > .contenidoHarryPotter5 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HarryPotter5 figure:hover > .contenidoHarryPotter5 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Harry potter 6*/
+.HarryPotter6{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 935px;
+}
+.HarryPotter6 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HarryPotter6 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HarryPotter6 figure .contenidoHarryPotter6{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HarryPotter6 figure:hover > .contenidoHarryPotter6{
+    opacity: 1;
+    visibility: visible;
+}
+.HarryPotter6 figure:hover > .contenidoHarryPotter6 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HarryPotter6 figure:hover > .contenidoHarryPotter6 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* HARRY POTTER 7 */
+.HarryPotter7{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 935px;
+}
+.HarryPotter7 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HarryPotter7 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HarryPotter7 figure .contenidoHarryPotter7{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HarryPotter7 figure:hover > .contenidoHarryPotter7{
+    opacity: 1;
+    visibility: visible;
+}
+.HarryPotter7 figure:hover > .contenidoHarryPotter7 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HarryPotter7 figure:hover > .contenidoHarryPotter7 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Harry Potter 8*/
+.HarryPotter8{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -977px;
+    left: 935px;
+}
+.HarryPotter8 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HarryPotter8 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HarryPotter8 figure .contenidoHarryPotter8{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HarryPotter8 figure:hover > .contenidoHarryPotter8{
+    opacity: 1;
+    visibility: visible;
+}
+.HarryPotter8 figure:hover > .contenidoHarryPotter8 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HarryPotter8 figure:hover > .contenidoHarryPotter8 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Naufrago */
+.Naufrago{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 935px;
+}
+.Naufrago figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Naufrago figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Naufrago figure .contenidoNaufrago{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Naufrago figure:hover > .contenidoNaufrago{
+    opacity: 1;
+    visibility: visible;
+}
+.Naufrago figure:hover > .contenidoNaufrago h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Naufragofigure:hover > .contenidoNaufrago p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* PequeñosGuerreros */
+.PequeñosGuerreros{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 935px;
+}
+.PequeñosGuerreros figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PequeñosGuerreros figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PequeñosGuerreros figure .contenidoPequeñosGuerreros{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PequeñosGuerreros figure:hover > .contenidoPequeñosGuerreros{
+    opacity: 1;
+    visibility: visible;
+}
+.PequeñosGuerreros figure:hover > .contenidoPequeñosGuerreros h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PequeñosGuerreros figure:hover > .contenidoPequeñosGuerreros p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*Ralph el demoledor */
+.Hobbit1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 935px;
+}
+.Hobbit1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Hobbit1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Hobbit1 figure .contenidoHobbit1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Hobbit1 figure:hover > .contenidoHobbit1{
+    opacity: 1;
+    visibility: visible;
+}
+.Hobbit1 figure:hover > .contenidoHobbit1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Hobbit1 figure:hover > .contenidoHobbit1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/*Hobbit2 */
+.Hobbit2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 935px;
+}
+.Hobbit2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Hobbit2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Hobbit2 figure .contenidoHobbit2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Hobbit2 figure:hover > .contenidoHobbit2{
+    opacity: 1;
+    visibility: visible;
+}
+.Hobbit2a figure:hover > .contenidoHobbit2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Hobbit2 figure:hover > .contenidoHobbit2p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Hobbit3 */
+.Hobbit3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2421px;
+    left: 936px;
+}
+.Hobbit3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Hobbit3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Hobbit3 figure .contenidoHobbit3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Hobbit3 figure:hover > .contenidoHobbit3{
+    opacity: 1;
+    visibility: visible;
+}
+.Hobbit3 figure:hover > .contenidoHobbit3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Hobbit3 figure:hover > .contenidoHobbit3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Cj7*/
+.Cj7{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2707px;
+    left: 936px;
+}
+.Cj7 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Cj7 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Cj7 figure .contenidoCj7{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Cj7 figure:hover > .contenidoCj7{
+    opacity: 1;
+    visibility: visible;
+}
+.Cj7 figure:hover > .contenidoCj7 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Cj7 figure:hover > .contenidoCj7 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/*BrujulaDorada*/
+
+.BrujulaDorada{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 936px;
+}
+.BrujulaDorada figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.BrujulaDorada figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.BrujulaDorada figure .contenidoBrujulaDorada{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.BrujulaDorada figure:hover > .contenidoBrujulaDorada{
+    opacity: 1;
+    visibility: visible;
+}
+.BrujulaDorada figure:hover > .contenidoBrujulaDorada h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.BrujulaDorada figure:hover > .contenidoBrujulaDorada p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*LaberintoFauno*/
+.LaberintoFauno{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3280px;
+    left: 936px;
+}
+.LaberintoFauno figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LaberintoFauno figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LaberintoFauno figure .contenidoLaberintoFauno{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LaberintoFauno figure:hover > .contenidoLaberintoFauno{
+    opacity: 1;
+    visibility: visible;
+}
+.LaberintoFauno figure:hover > .contenidoLaberintoFauno h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ToyStory figure:hover > .contenidoToyStory p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

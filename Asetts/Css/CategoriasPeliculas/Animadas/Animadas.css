@@ -1,0 +1,1835 @@
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 600px;
+}
+.boton{
+    background: #ff0000;
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 17px;
+}
+
+/* ------------------------PRIMERA FILA/LINEA------------------------- */
+
+/*Madagascar */
+.Madagascar{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.Madagascar figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Madagascar figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Madagascar figure .contenidoMadagascar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Madagascar figure:hover > .contenidoMadagascar{
+    opacity: 1;
+    visibility: visible;
+}
+.Madagascar figure:hover > .contenidoMadagascar h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Madagascars figure:hover > .contenidoMadagascar p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Madagascar2 */
+.Madagascar2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.Madagascar2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Madagascar2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Madagascar2 figure .contenidoMadagascar2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Madagascar2 figure:hover > .contenidoMadagascar2{
+    opacity: 1;
+    visibility: visible;
+}
+.Madagascar2 figure:hover > .contenidoMadagascar2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Madagascars2figure:hover > .contenidoMadagascar2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Madagascar3 */
+.Madagascar3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.Madagascar3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Madagascar3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Madagascar3 figure .contenidoMadagascar3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Madagascar3 figure:hover > .contenidoMadagascar3{
+    opacity: 1;
+    visibility: visible;
+}
+.Madagascar3 figure:hover > .contenidoMadagascar3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Madagascars3 figure:hover > .contenidoMadagascar3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Los Pinguinos de Madagascar */
+.pinguinosMadagascar{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.pinguinosMadagascar figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.pinguinosMadagascar figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.pinguinosMadagascar figure .contenidopinguinosMadagascar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.pinguinosMadagascar figure:hover > .contenidopinguinosMadagascar{
+    opacity: 1;
+    visibility: visible;
+}
+.pinguinosMadagascar figure:hover > .contenidopinguinosMadagascar h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.pinguinosMadagascar figure:hover > .contenidopinguinosMadagascar p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* MitchelVsMaquinas */
+.MitchelVsMaquinas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 75px;
+}
+.MitchelVsMaquinas figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.MitchelVsMaquinas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MitchelVsMaquinas figure .contenidoMitchelVsMaquinas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MitchelVsMaquinas figure:hover > .contenidoMitchelVsMaquinas{
+    opacity: 1;
+    visibility: visible;
+}
+.MitchelVsMaquinas figure:hover > .contenidoMitchelVsMaquinas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MitchelVsMaquinas figure:hover > .contenidoMitchelVsMaquinas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Trolls*/
+
+.Trolls{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 75px;
+}
+.Trolls figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Trolls figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Trolls figure .contenidoTrolls{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Trolls figure:hover > .contenidoTrolls{
+    opacity: 1;
+    visibility: visible;
+}
+.Trolls figure:hover > .contenidoTrolls h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Trolls figure:hover > .contenidoTrolls p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Trolls2*/
+
+.Trolls2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1554px;
+    left: 75px;
+}
+.Trolls2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Trolls2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Trolls2 figure .contenidoTrolls2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Trolls2 figure:hover > .contenidoTrolls2{
+    opacity: 1;
+    visibility: visible;
+}
+.Trolls2 figure:hover > .contenidoTrolls2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Trolls2 figure:hover > .contenidoTrolls2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Trolls3*/
+
+.Trolls3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1842px;
+    left: 75px;
+}
+.Trolls3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Trolls3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Trolls3 figure .contenidoTrolls3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Trolls3 figure:hover > .contenidoTrolls3{
+    opacity: 1;
+    visibility: visible;
+}
+.Trolls3 figure:hover > .contenidoTrolls3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Trolls3 figure:hover > .contenidoTrolls3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* JefePañales*/
+
+.JefePañales{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2130px;
+    left: 75px;
+}
+.JefePañales figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.JefePañales figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.JefePañales figure .contenidoJefePañales{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.JefePañales figure:hover > .contenidoJefePañales{
+    opacity: 1;
+    visibility: visible;
+}
+.JefePañales figure:hover > .contenidoJefePañales h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.JefePañales figure:hover > .contenidoJefePañales p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* JefePañales2*/
+
+.JefePañales2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2418px;
+    left: 75px;
+}
+.JefePañales2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.JefePañales2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.JefePañales2 figure .contenidoJefePañales2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.JefePañales2 figure:hover > .contenidoJefePañales2{
+    opacity: 1;
+    visibility: visible;
+}
+.JefePañales2 figure:hover > .contenidoJefePañales2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.JefePañales2 figure:hover > .contenidoJefePañales2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Spirit*/
+
+.Spirit{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2706px;
+    left: 75px;
+}
+.Spirit figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Spirit figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Spirit figure .contenidoSpirit{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Spirit figure:hover > .contenidoSpirit{
+    opacity: 1;
+    visibility: visible;
+}
+.Spirit figure:hover > .contenidoSpirit h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Spirit figure:hover > .contenidoSpirit p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Coraline*/
+
+.Coraline{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 75px;
+}
+.Coraline figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Coraline figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Coraline figure .contenidoCoraline{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Coraline figure:hover > .contenidoCoraline{
+    opacity: 1;
+    visibility: visible;
+}
+.Coraline figure:hover > .contenidoCoraline h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Coraline figure:hover > .contenidoCoraline p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+
+/*------------------------SEGUNDA FILA/LINEA-------------------------*/
+/* Shrek */
+.Shrek{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 505px;
+}
+.Shrek figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Shrek figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Shrek figure .contenidoShrek{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Shrek figure:hover > .contenidoShrek{
+    opacity: 1;
+    visibility: visible;
+}
+.Shrek figure:hover > .contenidoShrek h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Shrek figure:hover > .contenidoShrek p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Shrek2 */
+.Shrek2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+}
+.Shrek2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Shrek2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Shrek2 figure .contenidoShrek2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Shrek2 figure:hover > .contenidoShrek2{
+    opacity: 1;
+    visibility: visible;
+}
+.Shrek2 figure:hover > .contenidoShrek2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Shrek2 figure:hover > .contenidoShrek2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Shrek3 */
+.Shrek3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+}
+.Shrek3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Shrek3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Shrek3 figure .contenidoShrek3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Shrek3 figure:hover > .contenidoShrek3{
+    opacity: 1;
+    visibility: visible;
+}
+.Shrek3 figure:hover > .contenidoShrek3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Shrek3 figure:hover > .contenidoShrek3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Shrek4 */
+.Shrek4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 505px;
+}
+.Shrek4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Shrek4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Shrek4 figure .contenidoShrek4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Shrek4 figure:hover > .contenidoShrek4{
+    opacity: 1;
+    visibility: visible;
+}
+.Shrek4 figure:hover > .contenidoShrek4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Shrek4 figure:hover > .contenidoShrek4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* El Principito */
+.Principito{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 505px;
+}
+.Principito figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Principito figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Principito figure .contenidoPrincipito{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Principito figure:hover > .contenidoPrincipito{
+    opacity: 1;
+    visibility: visible;
+}
+.Principito figure:hover > .contenidoPrincipito h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Principito figure:hover > .contenidoPrincipito p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* ComoDragon*/
+
+.ComoDragon{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 505px;
+}
+.ComoDragon figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ComoDragon figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ComoDragon figure .contenidoComoDragon{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ComoDragon figure:hover > .contenidoComoDragon{
+    opacity: 1;
+    visibility: visible;
+}
+.ComoDragon figure:hover > .contenidoComoDragon h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ComoDragon figure:hover > .contenidoComoDragon p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* ComoDragon2*/
+
+.ComoDragon2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1554px;
+    left: 505px;
+}
+.ComoDragon2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ComoDragon2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ComoDragon2 figure .contenidoComoDragon2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ComoDragon2 figure:hover > .contenidoComoDragon2{
+    opacity: 1;
+    visibility: visible;
+}
+.ComoDragon2 figure:hover > .contenidoComoDragon2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ComoDragon2 figure:hover > .contenidoComoDragon2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* ComoDragon3*/
+
+.ComoDragon3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1842px;
+    left: 505px;
+}
+.ComoDragon3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ComoDragon3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ComoDragon3 figure .contenidoComoDragon3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ComoDragon3 figure:hover > .contenidoComoDragon3{
+    opacity: 1;
+    visibility: visible;
+}
+.ComoDragon3 figure:hover > .contenidoComoDragon3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ComoDragon3 figure:hover > .contenidoComoDragon3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* GatoConBotas*/
+
+.GatoConBotas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2130px;
+    left: 505px;
+}
+.GatoConBotas figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.GatoConBotas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.GatoConBotas figure .contenidoGatoConBotas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.GatoConBotas figure:hover > .contenidoGatoConBotas{
+    opacity: 1;
+    visibility: visible;
+}
+.GatoConBotas figure:hover > .contenidoGatoConBotas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.GatoConBotas figure:hover > .contenidoGatoConBotas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* GatoConBotas2*/
+
+.GatoConBotas2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2418px;
+    left: 505px;
+}
+.GatoConBotas2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.GatoConBotas2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.GatoConBotas2 figure .contenidoGatoConBotas2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.GatoConBotas2 figure:hover > .contenidoGatoConBotas2{
+    opacity: 1;
+    visibility: visible;
+}
+.GatoConBotas2 figure:hover > .contenidoGatoConBotas2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.GatoConBotas2 figure:hover > .contenidoGatoConBotas2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* ChickenRun*/
+
+.ChickenRun{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2706px;
+    left: 505px;
+}
+.ChickenRun figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ChickenRun figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ChickenRun figure .contenidoChickenRun{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ChickenRun figure:hover > .contenidoChickenRun{
+    opacity: 1;
+    visibility: visible;
+}
+.ChickenRun figure:hover > .contenidoChickenRun h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ChickenRun figure:hover > .contenidoChickenRun p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* ParaNorman*/
+
+.ParaNorman{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2995px;
+    left: 505px;
+}
+.ParaNorman figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ParaNorman figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ParaNorman figure .contenidoParaNorman{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ParaNorman figure:hover > .contenidoParaNorman{
+    opacity: 1;
+    visibility: visible;
+}
+.ParaNorman figure:hover > .contenidoParaNorman h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ParaNorman figure:hover > .contenidoParaNorman p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+
+/*------------------------Tercera FILA/LINEA-------------------------*/
+/* AmigosSalvalvajes 1 */
+
+.AmigosSalvalvajes1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 935px;
+}
+.AmigosSalvalvajes1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmigosSalvalvajes1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmigosSalvalvajes1 figure .contenidoAmigosSalvalvajes1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmigosSalvalvajes1 figure:hover > .contenidoAmigosSalvalvajes1{
+    opacity: 1;
+    visibility: visible;
+}
+.AmigosSalvalvajes1 figure:hover > .contenidoAmigosSalvalvajes1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmigosSalvalvajes1 figure:hover > .contenidoAmigosSalvalvajes1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* AmigosSalvalvajes 2 */
+
+.AmigosSalvalvajes2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 935px;
+}
+.AmigosSalvalvajes2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmigosSalvalvajes2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmigosSalvalvajes2 figure .contenidoAmigosSalvalvajes2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmigosSalvalvajes2 figure:hover > .contenidoAmigosSalvalvajes2{
+    opacity: 1;
+    visibility: visible;
+}
+.AmigosSalvalvajes2 figure:hover > .contenidoAmigosSalvalvajes2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmigosSalvalvajes2 figure:hover > .contenidoAmigosSalvalvajes2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* AmigosSalvalvajes 3 */
+
+.AmigosSalvalvajes3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 935px;
+}
+.AmigosSalvalvajes3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AmigosSalvalvajes3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AmigosSalvalvajes3 figure .contenidoAmigosSalvalvajes3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AmigosSalvalvajes3 figure:hover > .contenidoAmigosSalvalvajes3{
+    opacity: 1;
+    visibility: visible;
+}
+.AmigosSalvalvajes3 figure:hover > .contenidoAmigosSalvalvajes2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AmigosSalvalvajes3 figure:hover > .contenidoAmigosSalvalvajes3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Megamente*/
+
+.Megamente{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 935px;
+}
+.Megamente figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Megamente figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Megamente figure .contenidoMegamente{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Megamente figure:hover > .contenidoMegamente{
+    opacity: 1;
+    visibility: visible;
+}
+.Megamente figure:hover > .contenidoMegamente h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Megamente figure:hover > .contenidoMegamente p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* BeeMovie*/
+
+.BeeMovie{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 935px;
+}
+.BeeMovie figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.BeeMovie figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.BeeMovie figure .contenidoBeeMovie{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.BeeMovie figure:hover > .contenidoBeeMovie{
+    opacity: 1;
+    visibility: visible;
+}
+.BeeMovie figure:hover > .contenidoBeeMovie h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.BeeMovie figure:hover > .contenidoBeeMovie p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Loscroods*/
+
+.Loscroods{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 935px;
+}
+.Loscroods figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Loscroods figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Loscroods figure .contenidoLoscroods{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Loscroods figure:hover > .contenidoLoscroods{
+    opacity: 1;
+    visibility: visible;
+}
+.Loscroods figure:hover > .contenidoLoscroods h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Loscroods figure:hover > .contenidoLoscroods p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Loscroods2*/
+
+.Loscroods2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1554px;
+    left: 935px;
+}
+.Loscroods2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Loscroods2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Loscroods2 figure .contenidoLoscroods2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Loscroods2 figure:hover > .contenidoLoscroods2{
+    opacity: 1;
+    visibility: visible;
+}
+.Loscroods2 figure:hover > .contenidoLoscroods2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Loscroods2 figure:hover > .contenidoLoscroods2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* OrigenGuardianes*/
+
+.OrigenGuardianes{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1842px;
+    left: 935px;
+}
+.OrigenGuardianes figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.OrigenGuardianes figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.OrigenGuardianes figure .contenidoOrigenGuardianes{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.OrigenGuardianes figure:hover > .contenidoOrigenGuardianes{
+    opacity: 1;
+    visibility: visible;
+}
+.OrigenGuardianes figure:hover > .contenidoOrigenGuardianes h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.OrigenGuardianes figure:hover > .contenidoOrigenGuardianes p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* VecinosInvasores*/
+
+.VecinosInvasores{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2130px;
+    left: 935px;
+}
+.VecinosInvasores figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.VecinosInvasores figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.VecinosInvasores figure .contenidoVecinosInvasores{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.VecinosInvasores figure:hover > .contenidoVecinosInvasores{
+    opacity: 1;
+    visibility: visible;
+}
+.VecinosInvasores figure:hover > .contenidoVecinosInvasores h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.VecinosInvasores figure:hover > .contenidoVecinosInvasores p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Monstruosaliens*/
+
+.Monstruosaliens{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2418px;
+    left: 935px;
+}
+.Monstruosaliens figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Monstruosaliens figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Monstruosaliens figure .contenidoMonstruosaliens{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Monstruosaliens figure:hover > .contenidoMonstruosaliens{
+    opacity: 1;
+    visibility: visible;
+}
+.Monstruosaliens figure:hover > .contenidoMonstruosaliens h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Monstruosaliens figure:hover > .contenidoMonstruosaliens p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* LaGranja*/
+
+.LaGranja{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2706px;
+    left: 935px;
+}
+.LaGranja figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LaGranja figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LaGranja figure .contenidoLaGranja{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LaGranja figure:hover > .contenidoLaGranja{
+    opacity: 1;
+    visibility: visible;
+}
+.LaGranja figure:hover > .contenidoLaGranja h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LaGranja figure:hover > .contenidoLaGranja p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}

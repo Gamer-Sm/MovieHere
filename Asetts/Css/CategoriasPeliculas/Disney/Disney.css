@@ -1,0 +1,2453 @@
+.titulo{
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 650px;
+}
+/*------------------------PRIMERA FILA/LINEA-------------------------*/
+
+/* BernardoyBianca */
+.BernardoyBianca{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 75px;
+}
+.BernardoyBianca figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.BernardoyBianca figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.BernardoyBianca figure .contenidoBernardoyBianca{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.BernardoyBianca figure:hover > .contenidoBernardoyBianca{
+    opacity: 1;
+    visibility: visible;
+}
+.BernardoyBianca figure:hover > .contenidoBernardoyBianca h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.BernardoyBianca figure:hover > .contenidoBernardoyBianca p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Bolt */
+.Bolt{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 75px;
+}
+.Bolt figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Bolt figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Bolt figure .contenidoBolt{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Bolt figure:hover > .contenidoBolt{
+    opacity: 1;
+    visibility: visible;
+}
+.Bolt figure:hover > .contenidoBolt h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Bolt figure:hover > .contenidoBolt p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Buscando a Dory */
+.BuscandoaDory{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 75px;
+}
+.BuscandoaDory figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.BuscandoaDory figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.BuscandoaDory figure .contenidoBuscandoaDory{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.BuscandoaDory figure:hover > .contenidoBuscandoaDory{
+    opacity: 1;
+    visibility: visible;
+}
+.BuscandoaDory figure:hover > .contenidoBuscandoaDory h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.BuscandoaDory figure:hover > .contenidoBuscandoaDory p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Buscando a Nemo */
+.BuscandoaNemo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 75px;
+}
+.BuscandoaNemo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.BuscandoaNemo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.BuscandoaNemo figure .contenidoBuscandoaNemo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.BuscandoaNemo figure:hover > .contenidoBuscandoaNemo{
+    opacity: 1;
+    visibility: visible;
+}
+.BuscandoaNemo figure:hover > .contenidoBuscandoaNemo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.BuscandoaNemo figure:hover > .contenidoBuscandoaNemo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Cars1 */
+.Cars1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 75px;
+}
+.Cars1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Cars1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Cars1 figure .contenidoCars1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Cars1 figure:hover > .contenidoCars1{
+    opacity: 1;
+    visibility: visible;
+}
+.Cars1 figure:hover > .contenidoCars1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Cars1 figure:hover > .contenidoCars1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Cars2 */
+.Cars2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 75px;
+}
+.Cars2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Cars2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Cars2 figure .contenidoCars2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Cars2 figure:hover > .contenidoCars2{
+    opacity: 1;
+    visibility: visible;
+}
+.Cars2 figure:hover > .contenidoCars2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Cars2 figure:hover > .contenidoCars2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Cars3 */
+.Cars3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 75px;
+}
+.Cars3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Cars3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Cars3 figure .contenidoCars3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Cars3 figure:hover > .contenidoCars3{
+    opacity: 1;
+    visibility: visible;
+}
+.Cars3 figure:hover > .contenidoCars3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Cars3 figure:hover > .contenidoCars3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Cenicienta */
+.Cenicienta{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 75px;
+}
+.Cenicienta figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Cenicienta figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Cenicienta figure .contenidoCenicienta{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Cenicienta figure:hover > .contenidoCenicienta{
+    opacity: 1;
+    visibility: visible;
+}
+.Cenicienta figure:hover > .contenidoCenicienta h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Cenicienta figure:hover > .contenidoCenicienta p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* chickenlittle */
+.chickenlittle{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 75px;
+}
+.chickenlittle figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.chickenlittle figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.chickenlittle figure .contenidochickenlittle{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.chickenlittle figure:hover > .contenidochickenlittle{
+    opacity: 1;
+    visibility: visible;
+}
+.chickenlittle figure:hover > .contenidochickenlittle h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.chickenlittle figure:hover > .contenidochickenlittle p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Coco */
+.Coco{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2421px;
+    left: 75px;
+}
+.Coco figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Coco figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Coco figure .contenidoCoco{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Coco figure:hover > .contenidoCoco{
+    opacity: 1;
+    visibility: visible;
+}
+.Coco figure:hover > .contenidoCoco h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Coco figure:hover > .contenidoCoco p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* La Dama y el Vagabundo */
+.Damavagabundo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2707px;
+    left: 75px;
+}
+.Damavagabundo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Damavagabundo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Damavagabundo figure .contenidoDamavagabundo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Damavagabundo figure:hover > .contenidoDamavagabundo{
+    opacity: 1;
+    visibility: visible;
+}
+.Damavagabundo figure:hover > .contenidoDamavagabundo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Damavagabundo figure:hover > .contenidoDamavagabundo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Dumbo */
+.Dumbo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 75px;
+}
+.Dumbo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Dumbo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Dumbo figure .contenidoDumbo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Dumbo figure:hover > .contenidoDumbo{
+    opacity: 1;
+    visibility: visible;
+}
+.Dumbo figure:hover > .contenidoDumbo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Dumbo figure:hover > .contenidoDumbo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Alicia1 */
+.AliciaMaravillas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3280px;
+    left: 75px;
+}
+.AliciaMaravillas figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AliciaMaravillas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AliciaMaravillas figure .contenidoAliciaMaravillas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AliciaMaravillas figure:hover > .contenidoAliciaMaravillas{
+    opacity: 1;
+    visibility: visible;
+}
+.AliciaMaravillas figure:hover > .contenidoAliciaMaravillas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AliciaMaravillas figure:hover > .contenidoAliciaMaravillas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Alicia2 */
+.AliciaEspejo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3568px;
+    left: 75px;
+}
+.AliciaEspejo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.AliciaEspejo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.AliciaEspejo figure .contenidoAliciaEspejo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.AliciaEspejo figure:hover > .contenidoAliciaEspejo{
+    opacity: 1;
+    visibility: visible;
+}
+.AliciaEspejo figure:hover > .contenidoAliciaEspejo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.AliciaEspejo figure:hover > .contenidoAliciaEspejo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Zootopia */
+.Zootopia{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3856px;
+    left: 75px;
+}
+.Zootopia figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Zootopia figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Zootopia figure .contenidoZootopia{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Zootopia figure:hover > .contenidoZootopia{
+    opacity: 1;
+    visibility: visible;
+}
+.Zootopia figure:hover > .contenidoZootopia h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Zootopia figure:hover > .contenidoZootopia p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Hocus Pocus 1 */
+.HocusPocus{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -4146px;
+    left: 75px;
+}
+.HocusPocus figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HocusPocus figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HocusPocus figure .contenidoHocusPocus{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HocusPocus figure:hover > .contenidoHocusPocus{
+    opacity: 1;
+    visibility: visible;
+}
+.HocusPocus figure:hover > .contenidoHocusPocus h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HocusPocus figure:hover > .contenidoHocusPocus p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/*-------------------------SEGUNDA FILA/LINEA-------------------------*/
+
+/* Elemental */
+.Elemental{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 505px;
+}
+.Elemental figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Elemental figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Elemental figure .contenidoElemental{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Elemental figure:hover > .contenidoElemental{
+    opacity: 1;
+    visibility: visible;
+}
+.Elemental figure:hover > .contenidoElemental h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Elemental figure:hover > .contenidoElemental p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Encanto */
+.Encanto{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 505px;
+}
+.Encanto figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Encanto figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Encanto figure .contenidoEncanto{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Encanto figure:hover > .contenidoEncanto{
+    opacity: 1;
+    visibility: visible;
+}
+.Encanto figure:hover > .contenidoEncanto h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Encanto figure:hover > .contenidoEncanto p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* FamiliaFuturo */
+.FamiliaFuturo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 505px;
+    
+}
+.FamiliaFuturo figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.FamiliaFuturo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.FamiliaFuturo figure .contenidoFamiliaFuturo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.FamiliaFuturo figure:hover > .contenidoFamiliaFuturo{
+    opacity: 1;
+    visibility: visible;
+}
+.FamiliaFuturo figure:hover > .contenidoFamiliaFuturo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.FamiliaFuturo figure:hover > .contenidoFamiliaFuturo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Frozen */
+.Frozen{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 505px;
+}
+.Frozen figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.Frozen figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Frozen figure .contenidoFrozen{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Frozen figure:hover > .contenidoFrozen{
+    opacity: 1;
+    visibility: visible;
+}
+.Frozen figure:hover > .contenidoFrozen h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Frozen figure:hover > .contenidoFrozen p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Frozen2*/
+.Frozen2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 500px;
+}
+.Frozen2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Frozen2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Frozen2 figure .contenidoFrozen2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Frozen2 figure:hover > .contenidoFrozen2{
+    opacity: 1;
+    visibility: visible;
+}
+.Frozen2 figure:hover > .contenidoFrozen2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Frozen2 figure:hover > .contenidoFrozen2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*Increibles1*/
+.Increibles1{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 500px;
+}
+.Increibles1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Increibles1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Increibles1 figure .contenidoIncreibles1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Increibles1 figure:hover > .contenidoIncreibles1{
+    opacity: 1;
+    visibility: visible;
+}
+.Increibles1 figure:hover > .contenidoIncreibles1 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Increibles1 figure:hover > .contenidoIncreibles1 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*Increibles2*/
+.Increibles2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 500px;
+}
+.Increibles2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Increibles2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Increibles2 figure .contenidoIncreibles2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Increibles2 figure:hover > .contenidoIncreibles2{
+    opacity: 1;
+    visibility: visible;
+}
+.Increibles2 figure:hover > .contenidoIncreibles2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Increibles2 figure:hover > .contenidoIncreibles2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*Juego de gemelas*/
+.JuegoGemelas{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 500px;
+}
+.JuegoGemelas figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.JuegoGemelas figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.JuegoGemelas figure .contenidoJuegoGemelas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.JuegoGemelas figure:hover > .contenidoJuegoGemelas{
+    opacity: 1;
+    visibility: visible;
+}
+.JuegoGemelas figure:hover > .contenidoJuegoGemelas h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.JuegoGemelas figure:hover > .contenidoJuegoGemelas p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*El Libro de la selva */
+.LibroSelva{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 500px;
+}
+.LibroSelva figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LibroSelva figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LibroSelva figure .contenidoLibroSelva{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LibroSelva figure:hover > .contenidoLibroSelva{
+    opacity: 1;
+    visibility: visible;
+}
+.LibroSelva figure:hover > .contenidoLibroSelva h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LibroSelva figure:hover > .contenidoLibroSelva p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Las locuras del emperado */
+.LocurasEmperador{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2421px;
+    left: 500px;
+}
+.LocurasEmperador figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.LocurasEmperador figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.LocurasEmperador figure .contenidoLocurasEmperador{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.LocurasEmperador figure:hover > .contenidoLocurasEmperador{
+    opacity: 1;
+    visibility: visible;
+}
+.LocurasEmperador figure:hover > .contenidoLocurasEmperador h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.LocurasEmperador figure:hover > .contenidoLocurasEmperador p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Luca*/
+.Luca{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2707px;
+    left: 500px;
+}
+.Luca figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Luca figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Luca figure .contenidoLuca{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Luca figure:hover > .contenidoLuca{
+    opacity: 1;
+    visibility: visible;
+}
+.Luca figure:hover > .contenidoLuca h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Luca figure:hover > .contenidoLuca p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Moana*/
+.Moana{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 500px;
+}
+.Moana figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Moana figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Moana figure .contenidoMoana{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Moana figure:hover > .contenidoMoana{
+    opacity: 1;
+    visibility: visible;
+}
+.Moana figure:hover > .contenidoMoana h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Moana figure:hover > .contenidoMoana p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Up*/
+.Up{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3280px;
+    left: 500px;
+}
+.Up figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Up figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Up figure .contenidoUp{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Up figure:hover > .contenidoUp{
+    opacity: 1;
+    visibility: visible;
+}
+.Up figure:hover > .contenidoUp h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Up figure:hover > .contenidoUp p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*VacasVaqueras*/
+.VacasVaqueras{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3568px;
+    left: 500px;
+}
+.VacasVaqueras figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.VacasVaqueras figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.VacasVaqueras figure .contenidoVacasVaqueras{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.VacasVaqueras figure:hover > .contenidoVacasVaqueras{
+    opacity: 1;
+    visibility: visible;
+}
+.VacasVaqueras figure:hover > .contenidoVacasVaqueras h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.VacasVaqueras figure:hover > .contenidoVacasVaqueras p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*ToyStory4*/
+.ToyStory4{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3856px;
+    left: 500px;
+}
+.ToyStory4 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ToyStory4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ToyStory4 figure .contenidoToyStory4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ToyStory4 figure:hover > .contenidoToyStory4{
+    opacity: 1;
+    visibility: visible;
+}
+.ToyStory4 figure:hover > .contenidoToyStory4 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ToyStory4 figure:hover > .contenidoToyStory4 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Hocus Pocus 2 */
+.HocusPocus2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -4146px;
+    left: 500px;
+}
+.HocusPocus2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.HocusPocus2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.HocusPocus2 figure .contenidoHocusPocus2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.HocusPocus2 figure:hover > .contenidoHocusPocus2{
+    opacity: 1;
+    visibility: visible;
+}
+.HocusPocus2 figure:hover > .contenidoHocusPocus2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.HocusPocus2 figure:hover > .contenidoHocusPocus2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/*-------------------------TERCERA FILA/LINEA-------------------------*/
+
+/* El Rey Leon */
+.Elreyleon{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: 165px;
+    left: 935px;
+}
+.Elreyleon figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Elreyleon figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Elreyleon figure .contenidoReyleon{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Elreyleon figure:hover > .contenidoReyleon{
+    opacity: 1;
+    visibility: visible;
+}
+.Elreyleon figure:hover > .contenidoReyleon h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Elreyleon figure:hover > .contenidoReyleon p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*MonstersInc*/
+.MonstersInc{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -120px;
+    left: 935px;
+}
+.MonstersInc figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.MonstersInc figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MonstersInc figure .contenidoMonstersInc{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MonstersInc figure:hover > .contenidoMonstersInc{
+    opacity: 1;
+    visibility: visible;
+}
+.MonstersInc figure:hover > .contenidoMonstersInc h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MonstersInc figure:hover > .contenidoMonstersInc p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*MonstersU*/
+.MonstersUniversity{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -405px;
+    left: 935px;
+    
+}
+.MonstersUniversity figure{
+
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+
+.MonstersUniversity figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.MonstersUniversity figure .contenidoMonstersUniversity{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.MonstersUniversity figure:hover > .contenidoMonstersUniversity{
+    opacity: 1;
+    visibility: visible;
+}
+.MonstersUniversity figure:hover > .contenidoMonstersUniversity h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.MonstersUniversity figure:hover > .contenidoMonstersUniversity p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* Mulan */
+.Mulan{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -690px;
+    left: 935px;
+}
+.Mulan figure{
+
+    position: relative;
+     height: 250px;
+      width: 350px; 
+     overflow: hidden;
+      border-radius: 6px;
+     box-shadow: 0px 15px 10px;
+      cursor: pointer;
+}
+.Mulan figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Mulan figure .contenidoMulan{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Mulan figure:hover > .contenidoMulan{
+    opacity: 1;
+    visibility: visible;
+}
+.Mulan figure:hover > .contenidoMulan h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Mulan figure:hover > .contenidoMulan p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* PeterPan */
+.PeterPan{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -978px;
+    left: 935px;
+}
+.PeterPan figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.PeterPan figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.PeterPan figure .contenidoPeterPan{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.PeterPan figure:hover > .contenidoPeterPan{
+    opacity: 1;
+    visibility: visible;
+}
+.PeterPan figure:hover > .contenidoPeterPan h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.PeterPan figure:hover > .contenidoPeterPan p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* Pinocho */
+.Pinocho{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1266px;
+    left: 935px;
+}
+.Pinocho figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Pinocho figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Pinocho figure .contenidoPinocho{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Pinocho figure:hover > .contenidoPinocho{
+    opacity: 1;
+    visibility: visible;
+}
+.Pinocho figure:hover > .contenidoPinocho h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Pinochofigure:hover > .contenidoPinocho p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/* La princesa y el sapo */
+.Laprincesayelsapo{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1555px;
+    left: 935px;
+}
+.Laprincesayelsapo figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Laprincesayelsapo figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Laprincesayelsapo figure .contenidoLaprincesayelsapo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Laprincesayelsapo figure:hover > .contenidoLaprincesayelsapo{
+    opacity: 1;
+    visibility: visible;
+}
+.Laprincesayelsapo figure:hover > .contenidoLaprincesayelsapo h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Laprincesayelsapo figure:hover > .contenidoLaprincesayelsapo p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+/*Ralph el demoledor */
+.Ralph{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -1845px;
+    left: 935px;
+}
+.Ralph figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Ralph figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Ralph figure .contenidoRalph{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Ralph figure:hover > .contenidoRalph{
+    opacity: 1;
+    visibility: visible;
+}
+.Ralph figure:hover > .contenidoRalph h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Ralph figure:hover > .contenidoRalph p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/*RalphWifi */
+.RalphWifi{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2133px;
+    left: 935px;
+}
+.RalphWifi figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.RalphWifi figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.RalphWifi figure .contenidoRalphWifi{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.RalphWifi figure:hover > .contenidoRalphWifi{
+    opacity: 1;
+    visibility: visible;
+}
+.RalphWifia figure:hover > .contenidoRalphWifi h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.RalphWifi figure:hover > .contenidoRalphWifip{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Ratatouille */
+.Ratatouille{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2421px;
+    left: 936px;
+}
+.Ratatouille figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Ratatouille figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Ratatouille figure .contenidoRatatouille{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Ratatouille figure:hover > .contenidoRatatouille{
+    opacity: 1;
+    visibility: visible;
+}
+.Ratatouille figure:hover > .contenidoRatatouille h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Ratatouille figure:hover > .contenidoRatatouille p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*Red*/
+.Red{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2707px;
+    left: 936px;
+}
+.Red figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Red figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Red figure .contenidoRed{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Red figure:hover > .contenidoRed{
+    opacity: 1;
+    visibility: visible;
+}
+.Red figure:hover > .contenidoRed h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Red figure:hover > .contenidoRed p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/*Sirenita*/
+
+.Sirenita{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -2994px;
+    left: 936px;
+}
+.Sirenita figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.Sirenita figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.Sirenita figure .contenidoSirenita{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.Sirenita figure:hover > .contenidoSirenita{
+    opacity: 1;
+    visibility: visible;
+}
+.Sirenita figure:hover > .contenidoSirenita h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.Sirenita figure:hover > .contenidoSirenita p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*ToyStory*/
+.ToyStory{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3280px;
+    left: 936px;
+}
+.ToyStory figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ToyStory figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ToyStory figure .contenidoToyStory{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ToyStory figure:hover > .contenidoToyStory{
+    opacity: 1;
+    visibility: visible;
+}
+.ToyStory figure:hover > .contenidoToyStory h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ToyStory figure:hover > .contenidoToyStory p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*ToyStory2*/
+.ToyStory2{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3568px;
+    left: 936px;
+}
+.ToyStory2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ToyStory2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ToyStory2 figure .contenidoToyStory2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ToyStory2 figure:hover > .contenidoToyStory2{
+    opacity: 1;
+    visibility: visible;
+}
+.ToyStory2 figure:hover > .contenidoToyStory2 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ToyStory2 figure:hover > .contenidoToyStory2 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/*ToyStory3*/
+.ToyStory3{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -3856px;
+    left: 936px;
+}
+.ToyStory3 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.ToyStory3 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.ToyStory3 figure .contenidoToyStory3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.ToyStory3 figure:hover > .contenidoToyStory3{
+    opacity: 1;
+    visibility: visible;
+}
+.ToyStory3 figure:hover > .contenidoToyStory3 h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.ToyStory3 figure:hover > .contenidoToyStory3 p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* EL EXTRAÑO MUNDO DE JACK */
+.extranomundojack{
+    width: 350px;
+    position: absolute;
+    justify-content: left;
+    bottom: -4146px;
+    left: 936px;
+}
+.extranomundojack figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px;
+    cursor: pointer;
+}
+.extranomundojack figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.extranomundojack figure .contenidoextranomundojack{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192, 203, 205, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.extranomundojack figure:hover > .contenidoextranomundojack{
+    opacity: 1;
+    visibility: visible;
+}
+.extranomundojack figure:hover > .contenidoextranomundojack h3{
+    color: black;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.extranomundojack figure:hover > .contenidoextranomundojack p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+
