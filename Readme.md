@@ -39,6 +39,6 @@ Ejemplo:
 
 1. Clona este repositorio:  
    ```bash
-   git clone https://github.com/Gamer-Sm/moviehere.git
+   git clone https://github.com/Gamer-Sm/MovieHere.git
 
 El proyecto no es funcional a la hora de ver peliculas ya que el server donde se almacenaron es de paga, y sale muy costoso espero poder tener los conocimientos para en un futuro hacerlo
